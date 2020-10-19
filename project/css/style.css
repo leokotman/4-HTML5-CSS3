@@ -1,0 +1,56 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    border: 4px solid black;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.page-header {
+    width: 100%;
+    padding: 50px;
+    background-color: #445161;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.page-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.page-header-wrp {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    float: left;
+}
+
+.page-header-title {
+    margin: 0 0 10px 0;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.page-header-list {
+    margin: 0;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.page-header-list-item::before {
+    content: url(/Users/leokotman/Documents/IT/4.HTML5-CSS3-webinar/4-HTML5-CSS3/project/img/check-icon.png)
+}
+
+.page-header-img {
+    display: block;
+    width: 300px;
+    height: 180px;
+    background-color: #fff;
+    color: black;
+    float: right;
+}
