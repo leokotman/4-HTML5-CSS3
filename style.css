@@ -8,7 +8,6 @@ body {
 
 .page-header {
     width: 100%;
-    padding: 50px;
     background-color: #445161;
     box-sizing: border-box;
     color: #445162;
@@ -25,6 +24,8 @@ body {
     border: 1px solid #fff;
     box-sizing: border-box;
     float: left;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .page-header-title {
@@ -46,7 +47,8 @@ body {
 }
 
 .page-header-list-item {
-    background: url() no-repeat 0 5px;
+    background: url(img/check-icon.png) no-repeat 0px 5px;
+    padding-left: 36px;
 }
 
 .page-header-img {
