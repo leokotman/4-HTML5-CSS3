@@ -44,7 +44,7 @@ body {
 }
 
 .page-header-list-item::before {
-    content: url(/Users/leokotman/Documents/IT/4.HTML5-CSS3-webinar/4-HTML5-CSS3/project/img/check-icon.png)
+    /* content: url(/Users/leokotman/Documents/IT/4.HTML5-CSS3-webinar/4-HTML5-CSS3/project/img/check-icon.png) */
 }
 
 .page-header-img {
