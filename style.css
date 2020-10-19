@@ -37,14 +37,16 @@ body {
 
 .page-header-list {
     margin: 0;
+    list-style-type: none;
+    font-family: ArialMT;
     font-size: 20px;
     line-height: 36px;
     font-weight: 400;
-    list-style-type: none;
+    color: #ffffff;
 }
 
-.page-header-list-item::before {
-    /* content: url(/Users/leokotman/Documents/IT/4.HTML5-CSS3-webinar/4-HTML5-CSS3/project/img/check-icon.png) */
+.page-header-list-item {
+    background: url() no-repeat 0 5px;
 }
 
 .page-header-img {
