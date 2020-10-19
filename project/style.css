@@ -11,7 +11,7 @@ body {
     padding: 50px;
     background-color: #445161;
     box-sizing: border-box;
-    color: #fff;
+    color: #445162;
 }
 
 .page-header:after {
@@ -32,6 +32,7 @@ body {
     font-size: 60px;
     line-height: 1.2;
     font-weight: 400;
+    color: #fff;
 }
 
 .page-header-list {
