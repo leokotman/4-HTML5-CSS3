@@ -26,10 +26,11 @@ body {
     float: left;
     margin-top: 50px;
     margin-left: 50px;
+    margin-bottom: 51px;
 }
 
 .page-header-title {
-    margin: 0 0 10px 0;
+    margin: 0 0 51px 0;
     font-size: 60px;
     line-height: 1.2;
     font-weight: 400;
@@ -38,6 +39,7 @@ body {
 
 .page-header-list {
     margin: 0;
+    padding: 0;
     list-style-type: none;
     font-family: ArialMT;
     font-size: 20px;
@@ -53,9 +55,100 @@ body {
 
 .page-header-img {
     display: block;
-    width: 300px;
-    height: 180px;
+    width: 469px;
+    height: 214px;
     background-color: #fff;
     color: black;
     float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.about-product {}
+
+.about-product:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.about-product-wrp {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 51px;
+    max-width: 52%;
+}
+
+.about-product-title {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.page-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin: 20px 0 0 0;
+}
+
+.about-product-img {
+    float: right;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    display: block;
+    color: #fff;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.pluses {
+    padding: 50px;
+    min-height: 350px;
+    background-color: #f5f5f5;
+}
+
+.pluses-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0 0 29px 0;
+    width: 100vw;
+    text-align: center;
+}
+
+.pluses-wrp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pluses-block {
+    max-width: 50%;
+}
+
+.pluses-block-margin {
+    margin-right: 23px;
+}
+
+.pluses-details {
+    background: url(img/summary-cross-icon.png) no-repeat 0px 5px;
+    padding-left: 40px;
+}
+
+details[open] summary {
+    float: left;
+}
+
+.pluses-text {
+    margin: 0 0 35px 0;
 }
