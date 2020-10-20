@@ -152,3 +152,46 @@ details[open] summary {
 .pluses-text {
     margin: 0 0 35px 0;
 }
+
+.screenshots {}
+
+.screenshots-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    margin: 51px 0 35px 0;
+}
+
+.screenshots-figures-wrp {
+    display: inline-block;
+    margin: 0 66px 19px 50px;
+}
+
+.screenshots-figure {
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.figure-img {
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+    color: white;
+    float: left;
+}
+
+figcaption {
+    padding-left: 215px;
+}
+
+.figcaption-title {
+    margin: 0;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+}
