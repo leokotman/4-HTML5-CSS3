@@ -130,6 +130,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: 1px solid #000;
 }
 
 .pluses-block {
@@ -167,6 +168,7 @@ details[open] summary {
 .screenshots-figures-wrp {
     display: inline-block;
     margin: 0 66px 19px 50px;
+    border: 1px solid #000;
 }
 
 .screenshots-figure {
