@@ -9,8 +9,9 @@ body {
 .page-header {
     width: 100%;
     background-color: #445161;
-    box-sizing: border-box;
     color: #445162;
+    padding: 50px 50px 51px;
+    box-sizing: border-box;
 }
 
 .page-header:after {
@@ -24,13 +25,11 @@ body {
     border: 1px solid #fff;
     box-sizing: border-box;
     float: left;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 51px;
+    margin: 0;
 }
 
 .page-header-title {
-    margin: 0 0 51px 0;
+    margin: 0 0 50px 0;
     font-size: 60px;
     line-height: 1.2;
     font-weight: 400;
@@ -49,8 +48,20 @@ body {
 }
 
 .page-header-list-item {
-    background: url(img/check-icon.png) no-repeat 0px 5px;
-    padding-left: 36px;
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.page-header-list-item:before {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    background-image: url(/Users/leokotman/Documents/IT/4.HTML5-CSS3-webinar/4-HTML5-CSS3/img/check-icon.png);
+    background-size: contain;
 }
 
 .page-header-img {
@@ -60,11 +71,13 @@ body {
     background-color: #fff;
     color: black;
     float: right;
-    margin-top: 50px;
-    margin-right: 50px;
+    margin: 0;
 }
 
-.about-product {}
+.about-product {
+    padding: 50px 50px 51px;
+    box-sizing: border-box;
+}
 
 .about-product:after {
     content: "";
@@ -77,9 +90,7 @@ body {
     border: 1px solid #000;
     box-sizing: border-box;
     float: left;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 51px;
+    margin: 0;
     max-width: 52%;
 }
 
@@ -106,8 +117,7 @@ body {
     background-color: #445161;
     display: block;
     color: #fff;
-    margin-top: 50px;
-    margin-right: 50px;
+    margin: 0;
 }
 
 .pluses {
@@ -126,55 +136,86 @@ body {
 }
 
 .pluses-wrp {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;  - нужно потренировать float*/
     border: 1px solid #000;
 }
 
-.pluses-block {
-    max-width: 50%;
+.pluses-wrp:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
-.pluses-block-margin {
+.pluses-block:first-child {
+    max-width: 49%;
+    float: left;
     margin-right: 23px;
 }
 
+.pluses-block:nth-child(2) {
+    float: right;
+    max-width: 49%;
+}
+
+.pluses-block details summary {
+    display: none
+}
+
 .pluses-details {
-    background: url(img/summary-cross-icon.png) no-repeat 0px 5px;
+    position: relative;
     padding-left: 40px;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+}
+
+.pluses-details::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background-image: url(../img/summary-cross-icon.png);
+    background-size: contain;
 }
 
 details[open] summary {
     float: left;
+    /* оставил их open, т.к. при убирании маркеров появляется пустота вместо раздела и некуда нажать, чтобы раскрыть элементы. как в chrome, так и в firefox. не понимаю, в чем проблема и как это исправить. */
 }
 
 .pluses-text {
     margin: 0 0 35px 0;
 }
 
-.screenshots {}
+.screenshots {
+    padding: 50px 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .screenshots-title {
+    width: 100%;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
     color: #445161;
     text-align: center;
-    margin: 51px 0 35px 0;
-}
-
-.screenshots-figures-wrp {
-    display: inline-block;
-    margin: 0 66px 19px 50px;
-    border: 1px solid #000;
+    margin: 0 0 35px 0;
 }
 
 .screenshots-figure {
-    width: 49%;
-    display: inline-block;
-    margin: 0;
-    padding-bottom: 30px;
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+    box-sizing: border-box;
+    border: 1px solid #000;
 }
 
 .figure-img {
@@ -182,11 +223,13 @@ details[open] summary {
     height: 150px;
     background-color: #445161;
     color: white;
-    float: left;
+    margin: 0 15px 0 0;
 }
 
-figcaption {
-    padding-left: 215px;
+.screenshots-figure figcaption {
+    width: 360px;
+    border: 1px solid #000;
+    box-sizing: border-box;
 }
 
 .figcaption-title {
@@ -195,4 +238,8 @@ figcaption {
     line-height: 30px;
     font-weight: 400;
     color: #445161;
+}
+
+.screenshots-figure p {
+    margin: 10px 0 0 0;
 }
