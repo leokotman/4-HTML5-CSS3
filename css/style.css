@@ -414,3 +414,67 @@ details[open] summary {
     font-weight: 700;
     color: #445161;
 }
+
+.price-item-btn:hover {
+    background-color: #445161;
+    color: #fff;
+}
+
+.price-item-btn:active {
+    background-color: #fff;
+    color: #445161;
+}
+
+.footer-contacts {
+    padding: 50px 0 50px 0;
+    margin: 0;
+    background-color: #445162;
+}
+
+.footer-contacts-title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts-form-links {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+#name,
+#email,
+#message {
+    min-height: 40px;
+    min-width: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+}
+
+#message {
+    min-height: 170px;
+
+}
+
+.contacts-links {
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.contacts-list {
+    /* добавлю */
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+}
