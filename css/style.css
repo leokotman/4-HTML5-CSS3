@@ -107,7 +107,11 @@ body {
     line-height: 24px;
     font-weight: 400;
     color: #333333;
-    margin: 20px 0 0 0;
+    margin: 0 0 20px 0;
+}
+
+.page-text:last-child {
+    margin: 0;
 }
 
 .about-product-img {
@@ -161,35 +165,53 @@ body {
 }
 
 .pluses-block details summary {
-    display: none
+    display: block;
 }
 
 .pluses-details {
     position: relative;
-    padding-left: 40px;
     box-sizing: border-box;
     margin: 0 0 20px 0;
 }
 
-.pluses-details::before {
-    content: '';
+.pluses-block summary {
+    display: block;
+    padding: 0 0 0 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.pluses-block summary::before {
+    content: '+';
     display: block;
     width: 32px;
     height: 32px;
     position: absolute;
     top: 5px;
     left: 0;
-    background-image: url(../img/summary-cross-icon.png);
-    background-size: contain;
+    /* background-image: url(../img/summary-cross-icon.png); */
+    /* background-size: contain; */
+    background-color: #445161;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    font-size: 40px;
 }
 
-details[open] summary {
-    float: left;
-    /* оставил их open, т.к. при убирании маркеров появляется пустота вместо раздела и некуда нажать, чтобы раскрыть элементы. как в chrome, так и в firefox. не понимаю, в чем проблема и как это исправить. */
+summary::-webkit-details-marker {
+    display: none;
 }
+
+/* .pluses-block summary::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+} */
 
 .pluses-text {
     margin: 0 0 35px 0;
+    padding: 0 0 0 40px;
 }
 
 .screenshots {
