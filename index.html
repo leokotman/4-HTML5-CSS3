@@ -225,9 +225,13 @@
 			<h2 class="footer-contacts-title">Contacts</h2>
 			<div class="contacts-form-links">
 				<form action="#" class="contacts-form">
-					<input type="text" placeholder="Your name:" id="name">
-					<input type="email" placeholder="Your email:" id="email">
-					<textarea placeholder="Your message:" id="message"></textarea>
+					<input type="text" placeholder="Your name:" id="name" required
+						pattern="^[А-Яа-яЁё\s]+$|^[a-zA-Z\s]+$"
+						title="только русские или латинские буквы (russian or russian letters">
+					<input type="email" placeholder="Your email:" id="email" required pattern="\S+@[a-z]+.[a-z]+"
+						title="email в формате email@mail.com">
+					<textarea placeholder="Your message:" id="message" required
+						title="Введите ваше сообщение (Write your message)"></textarea>
 					<input type="submit" value="send" id="form-btn">
 				</form>
 				<div class="contacts-links">

@@ -461,6 +461,9 @@ summary::-webkit-details-marker {
     border-radius: 5px;
     background-color: #ffffff;
     outline: none;
+}
+
+#name {
     text-transform: capitalize;
 }
 
