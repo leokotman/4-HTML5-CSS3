@@ -1,7 +1,6 @@
 body {
     width: 1280px;
     margin: 0 auto;
-    border: 4px solid black;
     box-sizing: border-box;
     font-family: Arial;
 }
@@ -22,7 +21,6 @@ body {
 }
 
 .page-header-wrp {
-    border: 1px solid #fff;
     box-sizing: border-box;
     float: left;
     margin: 0;
@@ -87,7 +85,6 @@ body {
 }
 
 .about-product-wrp {
-    border: 1px solid #000;
     box-sizing: border-box;
     float: left;
     margin: 0;
@@ -114,13 +111,11 @@ body {
     margin: 0;
 }
 
-.about-product-img {
+.about-product-video {
     float: right;
     width: 430px;
     height: 245px;
-    background-color: #445161;
     display: block;
-    color: #fff;
     margin: 0;
 }
 
@@ -140,28 +135,12 @@ body {
 }
 
 .pluses-wrp {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around;  - нужно потренировать float*/
-    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
 }
 
-.pluses-wrp:after {
-    content: "";
-    display: block;
-    width: 100%;
-    clear: both;
-}
-
-.pluses-block:first-child {
-    max-width: 49%;
-    float: left;
-    margin-right: 23px;
-}
-
-.pluses-block:nth-child(2) {
-    float: right;
-    max-width: 49%;
+.pluses-block {
+    max-width: 48%;
 }
 
 .pluses-block details summary {
@@ -189,8 +168,6 @@ body {
     position: absolute;
     top: 5px;
     left: 0;
-    /* background-image: url(../img/summary-cross-icon.png); */
-    /* background-size: contain; */
     background-color: #445161;
     color: #fff;
     text-align: center;
@@ -237,7 +214,6 @@ summary::-webkit-details-marker {
     justify-content: space-between;
     margin: 0 0 30px 0;
     box-sizing: border-box;
-    border: 1px solid #000;
 }
 
 .figure-img {
@@ -250,7 +226,6 @@ summary::-webkit-details-marker {
 
 .screenshots-figure figcaption {
     width: 360px;
-    border: 1px solid #000;
     box-sizing: border-box;
 }
 
@@ -289,7 +264,6 @@ summary::-webkit-details-marker {
 
 .reviews-item {
     width: 48%;
-    border: 1px solid #000;
     box-sizing: border-box;
     margin: 0 0 24px 0;
     display: flex;
@@ -345,7 +319,6 @@ summary::-webkit-details-marker {
     padding: 50px;
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -473,7 +446,6 @@ summary::-webkit-details-marker {
 .contacts-form {
     display: flex;
     flex-direction: column;
-    border: 1px solid #000;
     box-sizing: border-box;
     width: 500px;
 }
@@ -601,7 +573,6 @@ textarea[placeholder] {
 }
 
 .contacts-links {
-    border: 1px solid #000;
     box-sizing: border-box;
     padding-left: 46px;
 }
@@ -632,6 +603,11 @@ textarea[placeholder] {
     top: -7px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.contacts-list li a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 #contacts-skype::before {
