@@ -41,8 +41,8 @@ body {
     width: 50%;
     justify-content: flex-end;
     flex-direction: row;
-
 }
+
 
 .milestone-left .event {
     margin-right: 40px;
@@ -81,6 +81,8 @@ body {
     position: absolute;
 }
 
+
+
 .milestone-left .event::after {
     content: "";
     display: block;
@@ -93,11 +95,78 @@ body {
 }
 
 .event {
-    max-width: 190px;
-    padding: 13px;
+    max-width: 200px;
+    max-height: 65px;
+    padding: 10px;
     border: 1px solid #000;
     box-sizing: border-box;
     box-shadow: 0px -1px 0px 0px rgba(22, 22, 48, 0.5);
+    text-transform: uppercase;
+}
+
+
+.pink-box {
+    background-color: #a8608c;
+}
+
+.blue-box {
+    background-color: #739ac2;
+}
+
+.purple-box {
+    background-color: #967fb5;
+}
+
+.green-box {
+    background-color: #7e9874;
+    text-transform: none;
+}
+
+.red-box {
+    background-color: #cd3737;
+}
+
+.mint-box {
+    background-color: #3d999d;
+}
+
+.grey-box {
+    background-color: #6b7392;
+}
+
+.milestone-left .pink-box::after {
+    border-left: 10px solid #a8608c;
+    ;
+}
+
+.milestone-left .purple-box::after {
+    border-left: 10px solid #967fb5;
+    ;
+}
+
+.milestone-left .red-box::after {
+    border-left: 10px solid #cd3737;
+    ;
+}
+
+.milestone-right .blue-box::after {
+    border-right: 10px solid #739ac2;
+    ;
+}
+
+.milestone-right .green-box::after {
+    border-right: 10px solid #7e9874;
+    ;
+}
+
+.milestone-right .mint-box::after {
+    border-right: 10px solid #3d999d;
+    ;
+}
+
+.milestone-right .grey-box::after {
+    border-right: 10px solid #6b7392;
+    ;
 }
 
 .date {
@@ -130,5 +199,5 @@ body {
 
 .milestone-left .no-date {
     left: 328px;
-    bottom: 375px;
+    bottom: 370px;
 }
