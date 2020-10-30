@@ -12,13 +12,20 @@ body {
 
         &-top {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1170px;
+            height: 56px;
+            margin: auto;
 
             &-logo {
-                margin: 0 219px 0 0;
+                margin-right: 156px;
             }
 
             &-menu {
+                display: flex;
+                justify-content: space-between;
+                width: 637px;
 
                 .menu-link {
                     font-family: 'Montserrat', sans-serif;
@@ -31,6 +38,29 @@ body {
                 .menu-link:hover,
                 .menu-link:active {
                     color: #c7b299;
+                }
+            }
+
+            &-action {
+                display: flex;
+                justify-content: space-between;
+                height: 24px;
+                width: 70px;
+
+                .cart {
+                    width: 18px;
+                    height: 24px;
+                    background: url(../img/cart-button.svg) no-repeat;
+                    background-size: contain;
+                    border: none;
+                }
+
+                form .header-search {
+                    width: 24px;
+                    height: 24px;
+                    background: url(../img/input-search.svg) no-repeat;
+                    background-size: contain;
+                    border: none;
                 }
             }
         }
