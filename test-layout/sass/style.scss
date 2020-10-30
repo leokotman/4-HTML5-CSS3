@@ -1,0 +1,38 @@
+body {
+    width: 1920px;
+    margin: 0;
+
+    .header {
+        background-image: url(../img/header-photo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        height: 1024px;
+        padding: 40px 150px;
+
+        &-top {
+            display: flex;
+            justify-content: space-around;
+
+            &-logo {
+                margin: 0 219px 0 0;
+            }
+
+            &-menu {
+
+                .menu-link {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    line-height: 1.2;
+                    font-weight: 300;
+                    color: #ffffff;
+                }
+
+                .menu-link:hover,
+                .menu-link:active {
+                    color: #c7b299;
+                }
+            }
+        }
+    }
+}

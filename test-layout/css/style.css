@@ -1,0 +1,32 @@
+/* line 1, ../sass/style.scss */
+body {
+  width: 1920px;
+  margin: 0; }
+  /* line 5, ../sass/style.scss */
+  body .header {
+    background-image: url(../img/header-photo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 1024px;
+    padding: 40px 150px; }
+    /* line 13, ../sass/style.scss */
+    body .header-top {
+      display: flex;
+      justify-content: space-around; }
+      /* line 17, ../sass/style.scss */
+      body .header-top-logo {
+        margin: 0 219px 0 0; }
+      /* line 23, ../sass/style.scss */
+      body .header-top-menu .menu-link {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #ffffff; }
+      /* line 31, ../sass/style.scss */
+      body .header-top-menu .menu-link:hover,
+      body .header-top-menu .menu-link:active {
+        color: #c7b299; }
+
+/*# sourceMappingURL=style.css.map */
