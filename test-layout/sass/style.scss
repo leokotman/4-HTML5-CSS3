@@ -18,6 +18,7 @@ body {
             max-width: 1170px;
             height: 56px;
             margin: auto;
+            box-sizing: border-box;
 
             &-logo {
                 margin-right: 156px;
@@ -71,8 +72,9 @@ body {
             align-items: center;
             justify-content: space-between;
             max-width: 1620px;
-            height: 603px;
             margin: auto;
+            padding: 285px 0 326px 0;
+            box-sizing: border-box;
 
             &-left {
                 background: url(../img/carousel-left.svg) no-repeat;
@@ -86,6 +88,7 @@ body {
                 text-align: center;
                 width: 589px;
                 height: 261px;
+                box-sizing: border-box;
 
                 h2 {
                     font-size: 36px;
@@ -116,6 +119,24 @@ body {
                     hyphens: auto;
                     max-width: 562px;                
                 }
+
+                .get-started {
+                    font-size: 14px;line-height: 23px;
+                    color: #ffffff;
+                    font-weight: 800;
+                    font-family: "Raleway";
+                    text-transform: uppercase;
+                    width: 170px;
+                    height: 53px;
+                    border-radius: 3px;
+                    background-color: #988574;
+                }
+
+                .get-started:hover {
+                    color: #988574;
+                    background-color: #fff;
+                    font-size: 16px;
+                }
             }
 
             &-right {
@@ -133,13 +154,16 @@ body {
             margin: auto;
             width: 98px;
             height: 15px;
+            justify-content: space-between;
 
             .page-button {
                 display: block;
                 width: 10px;
                 height: 10px;
                 background-color: #fff;
+                opacity: 0.5;
                 border-radius: 5px;
+                box-sizing: border-box;
             }
 
             .page-button:hover {
