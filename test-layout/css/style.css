@@ -1,6 +1,8 @@
+/* line 1, ../sass/style.scss */
 body {
   width: 1920px;
   margin: 0; }
+  /* line 5, ../sass/style.scss */
   body .header {
     background-image: url(../img/header-photo.png);
     background-size: contain;
@@ -8,44 +10,91 @@ body {
     box-sizing: border-box;
     height: 1024px;
     padding: 40px 150px; }
+    /* line 13, ../sass/style.scss */
     body .header-top {
       display: flex;
+      flex-wrap: nowrap;
       justify-content: space-between;
       align-items: center;
       max-width: 1170px;
       height: 56px;
       margin: auto; }
+      /* line 22, ../sass/style.scss */
       body .header-top-logo {
         margin-right: 156px; }
+      /* line 26, ../sass/style.scss */
       body .header-top-menu {
         display: flex;
         justify-content: space-between;
         width: 637px; }
+        /* line 31, ../sass/style.scss */
         body .header-top-menu .menu-link {
           font-family: 'Montserrat', sans-serif;
           font-size: 14px;
           line-height: 1.2;
           font-weight: 300;
           color: #ffffff; }
+        /* line 39, ../sass/style.scss */
         body .header-top-menu .menu-link:hover,
         body .header-top-menu .menu-link:active {
           color: #c7b299; }
+      /* line 45, ../sass/style.scss */
       body .header-top-action {
         display: flex;
         justify-content: space-between;
         height: 24px;
         width: 70px; }
+        /* line 51, ../sass/style.scss */
         body .header-top-action .cart {
           width: 18px;
           height: 24px;
           background: url(../img/cart-button.svg) no-repeat;
           background-size: contain;
           border: none; }
+        /* line 59, ../sass/style.scss */
         body .header-top-action form .header-search {
           width: 24px;
           height: 24px;
           background: url(../img/input-search.svg) no-repeat;
           background-size: contain;
           border: none; }
+    /* line 69, ../sass/style.scss */
+    body .header .carousel {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1620px;
+      height: 603px;
+      margin: auto; }
+      /* line 77, ../sass/style.scss */
+      body .header .carousel-left {
+        background: url(../img/carousel-left.svg) no-repeat;
+        background-size: contain;
+        height: 73px;
+        width: 40px;
+        border: none; }
+      /* line 85, ../sass/style.scss */
+      body .header .carousel-item {
+        text-align: center; }
+      /* line 89, ../sass/style.scss */
+      body .header .carousel-right {
+        background: url(../img/carousel-right.svg) no-repeat;
+        background-size: contain;
+        height: 73px;
+        width: 40px;
+        border: none; }
+    /* line 99, ../sass/style.scss */
+    body .header .carousel-pages {
+      display: flex;
+      margin: auto;
+      width: 98px;
+      height: 15px; }
+      /* line 105, ../sass/style.scss */
+      body .header .carousel-pages .page-button {
+        display: block;
+        width: 11px;
+        height: 11px;
+        background-color: #fff;
+        border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,6 +12,7 @@ body {
 
         &-top {
             display: flex;
+            flex-wrap: nowrap;
             justify-content: space-between;
             align-items: center;
             max-width: 1170px;
@@ -62,6 +63,51 @@ body {
                     background-size: contain;
                     border: none;
                 }
+            }
+        }
+
+        .carousel {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1620px;
+            height: 603px;
+            margin: auto;
+
+            &-left {
+                background: url(../img/carousel-left.svg) no-repeat;
+                background-size: contain;
+                height: 73px;
+                width: 40px;
+                border: none;
+            }
+
+            &-item {
+                text-align: center;
+            }
+
+            &-right {
+                background: url(../img/carousel-right.svg) no-repeat;
+                background-size: contain;
+                height: 73px;
+                width: 40px;
+                border: none;
+            }
+
+        }
+
+        .carousel-pages {
+            display: flex;
+            margin: auto;
+            width: 98px;
+            height: 15px;
+
+            .page-button {
+                display: block;
+                width: 11px;
+                height: 11px;
+                background-color: #fff;
+                border-radius: 50%;
             }
         }
     }
