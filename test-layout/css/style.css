@@ -75,26 +75,62 @@ body {
         border: none; }
       /* line 85, ../sass/style.scss */
       body .header .carousel-item {
-        text-align: center; }
-      /* line 89, ../sass/style.scss */
+        text-align: center;
+        width: 589px;
+        height: 261px; }
+        /* line 90, ../sass/style.scss */
+        body .header .carousel-item h2 {
+          font-size: 36px;
+          color: #ffffff;
+          font-weight: 500;
+          line-height: 1.2;
+          font-family: "Raleway";
+          margin: 0 0 14px 0; }
+        /* line 99, ../sass/style.scss */
+        body .header .carousel-item h1 {
+          font-size: 52px;
+          color: #ffffff;
+          font-weight: 800;
+          line-height: 1.2;
+          font-family: "Raleway";
+          margin: 0 0 19px 0; }
+        /* line 108, ../sass/style.scss */
+        body .header .carousel-item p {
+          font-size: 16px;
+          line-height: 24px;
+          color: #ffffff;
+          font-weight: 300;
+          font-family: "Montserrat";
+          margin: 0 auto 51px;
+          word-wrap: break-word;
+          hyphens: auto;
+          max-width: 562px; }
+      /* line 121, ../sass/style.scss */
       body .header .carousel-right {
         background: url(../img/carousel-right.svg) no-repeat;
         background-size: contain;
         height: 73px;
         width: 40px;
         border: none; }
-    /* line 99, ../sass/style.scss */
+    /* line 131, ../sass/style.scss */
     body .header .carousel-pages {
       display: flex;
       margin: auto;
       width: 98px;
       height: 15px; }
-      /* line 105, ../sass/style.scss */
+      /* line 137, ../sass/style.scss */
       body .header .carousel-pages .page-button {
         display: block;
-        width: 11px;
-        height: 11px;
+        width: 10px;
+        height: 10px;
         background-color: #fff;
-        border-radius: 50%; }
+        border-radius: 5px; }
+      /* line 145, ../sass/style.scss */
+      body .header .carousel-pages .page-button:hover {
+        width: 15px;
+        height: 15px;
+        border-radius: 7px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 2px solid #d3c1ad; }
 
 /*# sourceMappingURL=style.css.map */
