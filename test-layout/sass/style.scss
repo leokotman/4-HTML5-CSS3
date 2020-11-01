@@ -1,6 +1,313 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+         url('../fonts/Montserrat-Bold.woff') format('woff'),
+         url('../fonts/Montserrat-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-ExtraLightItalic.eot');
+    src: url('../fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
+         url('../fonts/Montserrat-ExtraLightItalic.woff') format('woff'),
+         url('../fonts/Montserrat-ExtraLightItalic.ttf') format('ttf');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-ExtraLight.eot');
+    src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+         url('../fonts/Montserrat-ExtraLight.woff') format('woff'),
+         url('../fonts/Montserrat-ExtraLight.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-Italic.eot');
+    src: url('../fonts/Montserrat-Italic.woff2') format('woff2'),
+         url('../fonts/Montserrat-Italic.woff') format('woff'),
+         url('../fonts/Montserrat-Italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-Light.eot');
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+         url('../fonts/Montserrat-Light.woff') format('woff'),
+         url('../fonts/Montserrat-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+         url('../fonts/Montserrat-Medium.woff') format('woff'),
+         url('../fonts/Montserrat-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-LightItalic.eot');
+    src: url('../fonts/Montserrat-LightItalic.woff2') format('woff2'),
+         url('../fonts/Montserrat-LightItalic.woff') format('woff'),
+         url('../fonts/Montserrat-LightItalic.ttf') format('ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('../fonts/Montserrat-Regular.woff') format('woff'),
+         url('../fonts/Montserrat-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-SemiBold.eot');
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+         url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+         url('../fonts/Montserrat-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-MediumItalic.eot');
+    src: url('../fonts/Montserrat-MediumItalic.woff2') format('woff2'),
+         url('../fonts/Montserrat-MediumItalic.woff') format('woff'),
+         url('../fonts/Montserrat-MediumItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-Thin.eot');
+    src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+         url('../fonts/Montserrat-Thin.woff') format('woff'),
+         url('../fonts/Montserrat-Thin.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-ThinItalic.eot');
+    src: url('../fonts/Montserrat-ThinItalic.woff2') format('woff2'),
+         url('../fonts/Montserrat-ThinItalic.woff') format('woff'),
+         url('../fonts/Montserrat-ThinItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat-SemiBoldItalic.eot');
+    src: url('../fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+         url('../fonts/Montserrat-SemiBoldItalic.woff') format('woff'),
+         url('../fonts/Montserrat-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'raleway';
+    src: url('Raleway-Thin.eot');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Thin.eot');
+    src: url('../fonts/Raleway-Thin.woff2') format('woff2'),
+         url('../fonts/Raleway-Thin.woff') format('woff'),
+         url('../fonts/Raleway-Thin.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-ExtraBold.eot');
+    src: url('../fonts/Raleway-ExtraBold.woff2') format('woff2'),
+         url('../fonts/Raleway-ExtraBold.woff') format('woff'),
+         url('../fonts/Raleway-ExtraBold.ttf') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-ExtraBoldItalic.eot');
+    src: url('../fonts/Raleway-ExtraBoldItalic.woff2') format('woff2'),
+         url('../fonts/Raleway-ExtraBoldItalic.woff') format('woff'),
+         url('../fonts/Raleway-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Black.eot');
+    src: url('../fonts/Raleway-Black.woff2') format('woff2'),
+         url('../fonts/Raleway-Black.woff') format('woff'),
+         url('../fonts/Raleway-Black.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-BlackItalic.eot');
+    src: url('../fonts/Raleway-BlackItalic.woff2') format('woff2'),
+         url('../fonts/Raleway-BlackItalic.woff') format('woff'),
+         url('../fonts/Raleway-BlackItalic.ttf') format('ttf');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Bold.eot');
+    src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
+         url('../fonts/Raleway-Bold.woff') format('woff'),
+         url('../fonts/Raleway-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-BoldItalic.eot');
+    src: url('../fonts/Raleway-BoldItalic.woff2') format('woff2'),
+         url('../fonts/Raleway-BoldItalic.woff') format('woff'),
+         url('../fonts/Raleway-BoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Regular.eot');
+    src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+         url('../fonts/Raleway-Regular.woff') format('woff'),
+         url('../fonts/Raleway-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-MediumItalic.eot');
+    src: url('../fonts/Raleway-MediumItalic.woff2') format('woff2'),
+         url('../fonts/Raleway-MediumItalic.woff') format('woff'),
+         url('../fonts/Raleway-MediumItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-LightItalic.eot');
+    src: url('../fonts/Raleway-LightItalic.woff2') format('woff2'),
+         url('../fonts/Raleway-LightItalic.woff') format('woff'),
+         url('../fonts/Raleway-LightItalic.ttf') format('ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Light.eot');
+    src: url('../fonts/Raleway-Light.woff2') format('woff2'),
+         url('../fonts/Raleway-Light.woff') format('woff'),
+         url('../fonts/Raleway-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Medium.eot');
+    src: url('../fonts/Raleway-Medium.woff2') format('woff2'),
+         url('../fonts/Raleway-Medium.woff') format('woff'),
+         url('../fonts/Raleway-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Italic.eot');
+    src: url('../fonts/Raleway-Italic.woff2') format('woff2'),
+         url('../fonts/Raleway-Italic.woff') format('woff'),
+         url('../fonts/Raleway-Italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-SemiBold.eot');
+    src: url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+         url('../fonts/Raleway-SemiBold.woff') format('woff'),
+         url('../fonts/Raleway-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-SemiBoldItalic.eot');
+    src: url('../fonts/Raleway-SemiBoldItalic.woff2') format('woff2'),
+         url('../fonts/Raleway-SemiBoldItalic.woff') format('woff'),
+         url('../fonts/Raleway-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular.woff') format('woff'),
+         url('../fonts/Roboto-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 body {
     width: 1920px;
-    margin: 0;
+    margin: 0 auto;
 
     .header {
         background-image: url(../img/header-photo.png);
@@ -17,11 +324,30 @@ body {
             align-items: center;
             max-width: 1170px;
             height: 56px;
-            margin: auto;
+            margin: 0 auto;
             box-sizing: border-box;
 
             &-logo {
-                margin-right: 156px;
+                text-decoration: none;
+                width: 181px;
+                height: 56px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                svg {
+                    fill: #fff;
+                }
+            }
+
+            &-brand {
+                font-family: 'raleway';
+                font-size: 34px;
+                line-height: 1.2;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.04em;
+                color: #ffffff;
             }
 
             &-menu {
@@ -30,11 +356,12 @@ body {
                 width: 637px;
 
                 .menu-link {
-                    font-family: 'Montserrat', sans-serif;
+                    font-family: 'montserrat', sans-serif;
                     font-size: 14px;
                     line-height: 1.2;
                     font-weight: 300;
                     color: #ffffff;
+                    text-decoration: none;
                 }
 
                 .menu-link:hover,
@@ -72,7 +399,7 @@ body {
             align-items: center;
             justify-content: space-between;
             max-width: 1620px;
-            margin: auto;
+            margin: 0 auto;
             padding: 285px 0 326px 0;
             box-sizing: border-box;
 
@@ -87,34 +414,33 @@ body {
             &-item {
                 text-align: center;
                 width: 589px;
-                height: 261px;
+                min-height: 261px;
                 box-sizing: border-box;
 
                 h2 {
-                    font-size: 36px;
-                    color: #ffffff;
-                    font-weight: 500;
+                    font-size: 34px;
+                    color: #ffffff;                  font-family: 'raleway';
+                    font-weight: 400;
                     line-height: 1.2;
-                    font-family: "Raleway";
-                    margin: 0 0 14px 0;
+                    margin: 0 0 10px 0;
                 }
 
                 h1 {
                     font-size: 52px;
                     color: #ffffff;
+                    font-family: 'raleway';
                     font-weight: 800;
                     line-height: 1.2;
-                    font-family: "Raleway";
-                    margin: 0 0 19px 0;
+                    margin: 0 0 10px 0;
                 }
 
                 p {
-                    font-size: 16px;
+                    font-size: 14px;
                     line-height: 24px;
                     color: #ffffff;
                     font-weight: 300;
-                    font-family: "Montserrat";
-                    margin: 0 auto 51px;
+                    font-family: 'montserrat';
+                    margin: 0 0 48px 0;
                     word-wrap: break-word;
                     hyphens: auto;
                     max-width: 562px;                
@@ -124,7 +450,7 @@ body {
                     font-size: 14px;line-height: 23px;
                     color: #ffffff;
                     font-weight: 800;
-                    font-family: "Raleway";
+                    font-family: 'raleway';
                     text-transform: uppercase;
                     width: 170px;
                     height: 53px;
