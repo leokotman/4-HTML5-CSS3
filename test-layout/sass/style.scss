@@ -308,6 +308,7 @@
 body {
     width: 1920px;
     margin: 0 auto;
+    font-family: 'montserrat', 'raleway', 'roboto', sans-serif;
 
     .header {
         background-image: url(../img/header-photo.png);
@@ -379,18 +380,56 @@ body {
                 .cart {
                     width: 18px;
                     height: 24px;
-                    background: url(../img/cart-button.svg) no-repeat;
-                    background-size: contain;
                     border: none;
+                    background-color: transparent;
+                    fill: #fff;
                 }
 
-                form .header-search {
+                .cart:hover {
+                    fill: #c7b299;
+                }
+
+                form {
                     width: 24px;
                     height: 24px;
-                    background: url(../img/input-search.svg) no-repeat;
-                    background-size: contain;
-                    border: none;
-                }
+                    position: relative;
+
+                    .header-search {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        fill: #fff;
+                        border: none;
+                    }
+
+                    .header-search:hover {
+                        fill: #c7b299;
+                    }
+
+                    #search {
+                        width: 0;
+                        min-height: 0;
+                        padding: 5px;
+                        outline: none;
+                        box-sizing: border-box;
+                        border: none;
+                        background-color: transparent;
+                        position: absolute;
+                        top: 34px;
+                        left: -156px;
+                        color: #fff;
+                        font-size: 16px;
+                        text-transform: capitalize;
+                    }
+
+                    #search:focus {
+                        width: 180px;
+                        min-height: 20px;
+                        transition: width 1s ease;
+                        border: 1px solid #d3c1ad;
+                        border-radius: 5px;
+                    }
+                }                
             }
         }
 
@@ -404,11 +443,11 @@ body {
             box-sizing: border-box;
 
             &-left {
-                background: url(../img/carousel-left.svg) no-repeat;
-                background-size: contain;
                 height: 73px;
                 width: 40px;
                 border: none;
+                fill: #fff;
+                background-color: transparent;
             }
 
             &-item {
@@ -466,20 +505,24 @@ body {
             }
 
             &-right {
-                background: url(../img/carousel-right.svg) no-repeat;
-                background-size: contain;
                 height: 73px;
                 width: 40px;
                 border: none;
+                background-color: transparent;
+                fill: #fff;
+            }
+
+            &-left:hover,
+            &-right:hover {
+                fill: #d3c1ad;
             }
 
         }
 
         .carousel-pages {
             display: flex;
-            margin: auto;
-            width: 98px;
-            height: 15px;
+            margin: 0 auto;
+            width: 100px;
             justify-content: space-between;
 
             .page-button {
@@ -488,15 +531,14 @@ body {
                 height: 10px;
                 background-color: #fff;
                 opacity: 0.5;
-                border-radius: 5px;
+                border-radius: 50%;
+                border: 2px solid transparent;
                 box-sizing: border-box;
             }
 
             .page-button:hover {
-                width: 15px;
-                height: 15px;
-                border-radius: 7px;
                 background-color: rgba(255,255,255,0);
+                transform: scale(1.5);
                 border: 2px solid #d3c1ad;
             }
 

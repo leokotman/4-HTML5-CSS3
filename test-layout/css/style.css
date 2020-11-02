@@ -179,7 +179,8 @@
   font-style: normal; }
 body {
   width: 1920px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: 'montserrat', 'raleway', 'roboto', sans-serif; }
   body .header {
     background-image: url(../img/header-photo.png);
     background-size: contain;
@@ -235,15 +236,43 @@ body {
         body .header-top-action .cart {
           width: 18px;
           height: 24px;
-          background: url(../img/cart-button.svg) no-repeat;
-          background-size: contain;
-          border: none; }
-        body .header-top-action form .header-search {
+          border: none;
+          background-color: transparent;
+          fill: #fff; }
+        body .header-top-action .cart:hover {
+          fill: #c7b299; }
+        body .header-top-action form {
           width: 24px;
           height: 24px;
-          background: url(../img/input-search.svg) no-repeat;
-          background-size: contain;
-          border: none; }
+          position: relative; }
+          body .header-top-action form .header-search {
+            display: block;
+            width: 100%;
+            height: 100%;
+            fill: #fff;
+            border: none; }
+          body .header-top-action form .header-search:hover {
+            fill: #c7b299; }
+          body .header-top-action form #search {
+            width: 0;
+            min-height: 0;
+            padding: 5px;
+            outline: none;
+            box-sizing: border-box;
+            border: none;
+            background-color: transparent;
+            position: absolute;
+            top: 34px;
+            left: -156px;
+            color: #fff;
+            font-size: 16px;
+            text-transform: capitalize; }
+          body .header-top-action form #search:focus {
+            width: 180px;
+            min-height: 20px;
+            transition: width 1s ease;
+            border: 1px solid #d3c1ad;
+            border-radius: 5px; }
     body .header .carousel {
       display: flex;
       align-items: center;
@@ -253,11 +282,11 @@ body {
       padding: 285px 0 326px 0;
       box-sizing: border-box; }
       body .header .carousel-left {
-        background: url(../img/carousel-left.svg) no-repeat;
-        background-size: contain;
         height: 73px;
         width: 40px;
-        border: none; }
+        border: none;
+        fill: #fff;
+        background-color: transparent; }
       body .header .carousel-item {
         text-align: center;
         width: 589px;
@@ -303,16 +332,17 @@ body {
           background-color: #fff;
           font-size: 16px; }
       body .header .carousel-right {
-        background: url(../img/carousel-right.svg) no-repeat;
-        background-size: contain;
         height: 73px;
         width: 40px;
-        border: none; }
+        border: none;
+        background-color: transparent;
+        fill: #fff; }
+      body .header .carousel-left:hover, body .header .carousel-right:hover {
+        fill: #d3c1ad; }
     body .header .carousel-pages {
       display: flex;
-      margin: auto;
-      width: 98px;
-      height: 15px;
+      margin: 0 auto;
+      width: 100px;
       justify-content: space-between; }
       body .header .carousel-pages .page-button {
         display: block;
@@ -320,13 +350,12 @@ body {
         height: 10px;
         background-color: #fff;
         opacity: 0.5;
-        border-radius: 5px;
+        border-radius: 50%;
+        border: 2px solid transparent;
         box-sizing: border-box; }
       body .header .carousel-pages .page-button:hover {
-        width: 15px;
-        height: 15px;
-        border-radius: 7px;
         background-color: rgba(255, 255, 255, 0);
+        transform: scale(1.5);
         border: 2px solid #d3c1ad; }
 
 /*# sourceMappingURL=style.css.map */
