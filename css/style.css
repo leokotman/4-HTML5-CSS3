@@ -24,6 +24,7 @@ body {
     box-sizing: border-box;
     float: left;
     margin: 0;
+    width: ;
 }
 
 .page-header-title {
@@ -123,6 +124,9 @@ body {
     padding: 50px;
     min-height: 350px;
     background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .pluses-title {
@@ -132,15 +136,13 @@ body {
     color: #445161;
     margin: 0 0 29px 0;
     text-align: center;
+    width: 100%;
 }
 
-.pluses-wrp {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .pluses-block {
-    max-width: 48%;
+    max-width: 567px;
 }
 
 .pluses-block details summary {
@@ -150,8 +152,19 @@ body {
 .pluses-details {
     position: relative;
     box-sizing: border-box;
-    margin: 0 0 20px 0;
+    margin: 0 0 35px 0;
 }
+
+.pluses-details:last-child {
+    margin: 0;
+}
+
+div.pluses-block:nth-child(3)>details:nth-child(3)>summary:nth-child(1),
+div.pluses-block:nth-child(2)>details:nth-child(3)>summary:nth-child(1) {
+    /* margin: 0; */
+    padding: 0 0 0 40px;
+}
+
 
 .pluses-block summary {
     display: block;
@@ -177,18 +190,6 @@ body {
 
 summary::-webkit-details-marker {
     display: none;
-}
-
-/* .pluses-block summary::after {
-    content: "";
-    display: block;
-    width: 100%;
-    clear: both;
-} */
-
-.pluses-text {
-    margin: 0 0 35px 0;
-    padding: 0 0 0 40px;
 }
 
 .screenshots {
@@ -242,7 +243,7 @@ summary::-webkit-details-marker {
 }
 
 .reviews {
-    padding: 50px;
+    padding: 50px 50px 26px 50px;
     display: flex;
     background-color: #f5f5f5;
     width: 100%;
@@ -395,7 +396,7 @@ summary::-webkit-details-marker {
 
 .price-item-btn {
     display: block;
-    margin: 19px 20px 0;
+    margin: 19px auto 0;
     padding: 10px;
     box-sizing: border-box;
     width: 80%;
@@ -409,6 +410,7 @@ summary::-webkit-details-marker {
     line-height: 18px;
     font-weight: 700;
     color: #445161;
+    word-break: break-all;
 }
 
 .price-item-btn:hover {
@@ -583,7 +585,7 @@ textarea[placeholder] {
 .contacts-list {
     list-style-type: none;
     margin: 0;
-    padding: 7px 0 17px 35px;
+    padding: 0 0 0 35px;
 }
 
 .contacts-list li {
@@ -596,6 +598,10 @@ textarea[placeholder] {
     color: #ffffff;
 }
 
+.contacts-list li:last-child {
+    margin-bottom: 32px;
+}
+
 .contacts-list li::before {
     content: '';
     display: block;
@@ -603,7 +609,7 @@ textarea[placeholder] {
     height: 26px;
     position: absolute;
     left: -35px;
-    top: -7px;
+    top: 0;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -629,6 +635,12 @@ textarea[placeholder] {
     background-image: url(../img/phone.png);
 }
 
+.social-links {
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+}
+
 #twitter,
 #facebook,
 #linkedin,
@@ -637,33 +649,29 @@ textarea[placeholder] {
     display: inline-block;
     width: 42px;
     height: 42px;
+    margin: 0;
+    font-size: 24px;
+    line-height: 42px;
+    text-decoration: none;
+    color: #445162;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: white;
     box-sizing: border-box;
     border: 1px solid white;
     border-radius: 50%;
-    margin-right: 5px;
-}
-
-#twitter {
-    background-image: url(../img/tweet-icon.jpg);
-}
-
-#facebook {
-    background-image: url(../img/facebook-icon.png);
-}
-
-#linkedin {
-    background-image: url(../img/linkedin-icon.png);
 }
 
 #google {
-    background-image: url(../img/google-icon.png);
+    background-image: url(../img/icons8-google-old.svg);
+    background-size: 24px;
+    background-position: center;
 }
 
 #youtube {
-    background-image: url(../img/youtube-icon.png);
+    background-image: url(../img/icons8-youtube.svg);
+    background-size: 28px;
+    background-position: center;
 }
 
 .copyright {
