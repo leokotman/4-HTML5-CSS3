@@ -730,11 +730,22 @@ body {
 
             .purchase-now {
                 text-transform: uppercase;
-                font-family: 'raleway';font-size: 14px;line-height: 23px;font-weight: 800;
+                font-family: 'raleway';
+                font-size: 14px;
+                line-height: 23px;
+                font-weight: 800;
                 color: #ffffff;
-                width: 170px;height: 50px;
+                width: 170px;
+                height: 50px;
+                box-sizing: border-box;
                 text-align: center;
-                background-color: #998675;border-radius: 3px;
+                background-color: #998675;
+                border-radius: 3px;
+            }
+            .purchase-now:hover {
+                background-color: #fff;
+                color: #998675;
+                border: #998675;
             }
         }
 
@@ -816,6 +827,7 @@ body {
                     .project-txt {
                         background-color: #fbfaf8;
                         padding: 30px 0 25px 30px;
+                        position: relative;
                         
                         span {
                             font-family: 'raleway';
@@ -839,23 +851,33 @@ body {
                         }
                     }
 
+                    .project-txt::before {
+                        content: "";
+                        border: 15px solid transparent;
+                        border-bottom: 10px solid #fbfaf8;
+                        position: absolute;
+                        top: -23px;
+                        left: 20px;
+                    }
+
                     .hover-links {
                         display: none;
-                        width: 80px;
+                        min-width: 80px;
                         height: 26px;
                         position: absolute;
                         top: 106px;
                         left: 144px;
                         
                         .link {
-                            background: url(../img/link.svg) no-repeat #C7B299;
-                            display: block;
+                            background: url(../img/link.svg) no-repeat;
+                            display: inline-block;
                             height: 26px;
                             width: 26px;
+                            margin-right: 26px;
                         }
                         .zoom {
-                            background: url(../img/zoom.svg) no-repeat #fff;
-                            display: block;
+                            background: url(../img/zoom.svg) no-repeat;
+                            display: inline-block;
                             height: 26px;
                             width: 26px;
                         }
@@ -863,14 +885,35 @@ body {
                     
                 }
 
-                article:hover .hover-links {
+                article:hover {
+                    .hover-links {
                     display: block;
-                }
-                article:hover .project-img {
+                    }
                     
+                    .project-img {
+                    filter: brightness(0.3) sepia(0.15);
+                    }
+
+                    .project-txt {
+                        background-color: #362f2d;
+                        span {
+                            color: #fff;
+                        }
+                        p {
+                            color: #c7b299;;
+                        }
+                    }
+                    .project-txt::before {
+                        content: "";
+                        border: 15px solid transparent;
+                        border-bottom: 10px solid #362f2d;
+                        position: absolute;
+                        top: -23px;
+                        left: 20px;
+                    }
                 }
             }
-
+            
             .button-load-more {
                 min-width: 170px;
                 min-height: 50px;
@@ -887,6 +930,11 @@ body {
                 text-align: center;
                 color: #ffffff;
             }
+            .button-load-more:hover {
+                background-color: #fff;
+                color: #998675;
+                border: 1px solid #998675;
+            }      
         }
     }
 }
