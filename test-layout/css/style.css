@@ -437,7 +437,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 80px 0 80px;
+    padding: 78px 0 78px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     text-align: center; }
@@ -452,34 +452,30 @@ body {
               flex-direction: column;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       max-width: 266px;
+      min-height: 214px;
       margin: 0 30px 0 0; }
-      /* line 565, ../sass/style.scss */
-      body main .features-block svg:first-of-type {
+      /* line 567, ../sass/style.scss */
+      body main .features-block .features-block-name svg {
         display: block;
         width: 100%;
         height: 49px;
         fill: #555555;
-        margin: 0 0 25px 0; }
-      /* line 573, ../sass/style.scss */
-      body main .features-block svg:last-of-type {
-        fill: #f1eee9;
-        width: 100%;
-        margin: 0; }
-      /* line 579, ../sass/style.scss */
-      body main .features-block h3 {
+        margin: 0 0 29px 0; }
+      /* line 575, ../sass/style.scss */
+      body main .features-block .features-block-name h3 {
         width: 100%;
         font-family: 'raleway';
         font-size: 22px;
         line-height: 1.2;
         font-weight: 600;
         color: #555555;
-        margin: 0 0 15px 0;
+        margin: 0;
         text-transform: capitalize; }
-      /* line 587, ../sass/style.scss */
+      /* line 584, ../sass/style.scss */
       body main .features-block p {
         width: 100%;
         font-family: 'montserrat';
@@ -487,18 +483,23 @@ body {
         line-height: 24px;
         font-weight: 300;
         color: #8c8c8c;
-        margin: 0 0 25px 0;
+        margin: 0;
         word-break: break-word; }
-    /* line 595, ../sass/style.scss */
+      /* line 591, ../sass/style.scss */
+      body main .features-block svg {
+        fill: #f1eee9;
+        width: 100%;
+        margin: 0; }
+    /* line 598, ../sass/style.scss */
     body main .features-block:last-child {
       margin: 0; }
-    /* line 600, ../sass/style.scss */
+    /* line 603, ../sass/style.scss */
     body main .features-block:hover svg {
       fill: #c7b299; }
-    /* line 603, ../sass/style.scss */
+    /* line 606, ../sass/style.scss */
     body main .features-block:hover h3 {
       color: #c7b299; }
-  /* line 609, ../sass/style.scss */
+  /* line 612, ../sass/style.scss */
   body main .realization {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -514,7 +515,7 @@ body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-color: #fbfaf8; }
-    /* line 617, ../sass/style.scss */
+    /* line 620, ../sass/style.scss */
     body main .realization h2 {
       font-family: 'raleway';
       font-size: 30px;
@@ -522,7 +523,7 @@ body {
       font-weight: 600;
       color: #555555;
       margin: 0 0 24px 0; }
-    /* line 624, ../sass/style.scss */
+    /* line 627, ../sass/style.scss */
     body main .realization p {
       max-width: 770px;
       text-align: center;
@@ -532,7 +533,7 @@ body {
       font-weight: 300;
       color: #8c8c8c;
       margin: 0 0 40px 0; }
-    /* line 634, ../sass/style.scss */
+    /* line 637, ../sass/style.scss */
     body main .realization-images {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -544,14 +545,14 @@ body {
           -ms-flex-align: end;
               align-items: flex-end;
       position: relative; }
-      /* line 640, ../sass/style.scss */
+      /* line 643, ../sass/style.scss */
       body main .realization-images .img-center {
         position: relative;
         display: block;
         width: 770px;
         height: 482px;
         z-index: 2; }
-      /* line 648, ../sass/style.scss */
+      /* line 651, ../sass/style.scss */
       body main .realization-images .img-left {
         position: absolute;
         display: block;
@@ -559,7 +560,12 @@ body {
         height: 400px;
         right: 230px;
         z-index: 1; }
-      /* line 657, ../sass/style.scss */
+      /* line 659, ../sass/style.scss */
+      body main .realization-images .img-left:hover {
+        z-index: 3;
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1); }
+      /* line 664, ../sass/style.scss */
       body main .realization-images .img-right {
         position: absolute;
         display: block;
@@ -567,7 +573,12 @@ body {
         height: 400px;
         right: -230px;
         z-index: 1; }
-  /* line 668, ../sass/style.scss */
+      /* line 672, ../sass/style.scss */
+      body main .realization-images .img-right:hover {
+        z-index: 3;
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1); }
+  /* line 681, ../sass/style.scss */
   body main aside {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -585,7 +596,7 @@ body {
     background-color: #f4f5f8;
     background-image: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
     background-image: linear-gradient(90deg, #211b19 0%, #4e3427 100%); }
-    /* line 677, ../sass/style.scss */
+    /* line 690, ../sass/style.scss */
     body main aside .aside-text {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -593,7 +604,7 @@ body {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
       max-width: 700px; }
-      /* line 682, ../sass/style.scss */
+      /* line 695, ../sass/style.scss */
       body main aside .aside-text span {
         font-family: 'raleway';
         font-size: 28px;
@@ -601,7 +612,7 @@ body {
         font-weight: 400;
         color: #c7b299;
         margin: 0; }
-      /* line 690, ../sass/style.scss */
+      /* line 703, ../sass/style.scss */
       body main aside .aside-text h3 {
         font-family: 'raleway';
         font-size: 28px;
@@ -609,7 +620,7 @@ body {
         font-weight: 400;
         color: #ffffff;
         margin: 0; }
-      /* line 699, ../sass/style.scss */
+      /* line 712, ../sass/style.scss */
       body main aside .aside-text p {
         margin: 0;
         font-family: 'montserrat';
@@ -617,7 +628,7 @@ body {
         line-height: 1.2;
         font-weight: 300;
         color: #615855; }
-    /* line 708, ../sass/style.scss */
+    /* line 721, ../sass/style.scss */
     body main aside .purchase-now {
       text-transform: uppercase;
       font-family: 'raleway';
