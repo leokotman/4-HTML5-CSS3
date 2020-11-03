@@ -615,12 +615,13 @@ body {
       /* line 703, ../sass/style.scss */
       body main aside .aside-text h3 {
         font-family: 'raleway';
+        text-transform: capitalize;
         font-size: 28px;
         line-height: 1.2;
         font-weight: 400;
         color: #ffffff;
         margin: 0; }
-      /* line 712, ../sass/style.scss */
+      /* line 713, ../sass/style.scss */
       body main aside .aside-text p {
         margin: 0;
         font-family: 'montserrat';
@@ -628,7 +629,7 @@ body {
         line-height: 1.2;
         font-weight: 300;
         color: #615855; }
-    /* line 721, ../sass/style.scss */
+    /* line 722, ../sass/style.scss */
     body main aside .purchase-now {
       text-transform: uppercase;
       font-family: 'raleway';
@@ -641,7 +642,7 @@ body {
       text-align: center;
       background-color: #998675;
       border-radius: 3px; }
-  /* line 731, ../sass/style.scss */
+  /* line 732, ../sass/style.scss */
   body main .projects {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -654,15 +655,16 @@ body {
         -ms-flex-align: center;
             align-items: center;
     padding: 80px 375px; }
-    /* line 737, ../sass/style.scss */
+    /* line 738, ../sass/style.scss */
     body main .projects h2 {
       font-family: 'raleway';
+      text-transform: capitalize;
       font-size: 30px;
       line-height: 1.2;
       font-weight: 600;
       color: #555555;
-      margin: 0; }
-    /* line 745, ../sass/style.scss */
+      margin: 0 0 20px 0; }
+    /* line 747, ../sass/style.scss */
     body main .projects p {
       font-family: 'montserrat';
       font-size: 16px;
@@ -670,28 +672,106 @@ body {
       font-weight: 300;
       color: #8c8c8c;
       text-align: center;
-      margin: 0; }
-    /* line 755, ../sass/style.scss */
+      max-width: 760px;
+      margin: 0 0 40px 0; }
+    /* line 758, ../sass/style.scss */
     body main .projects .projects-menu {
-      border: 1px solid #000;
-      text-align: center; }
-    /* line 760, ../sass/style.scss */
+      text-align: center;
+      min-width: 605px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      margin: 0 0 40px 0; }
+      /* line 765, ../sass/style.scss */
+      body main .projects .projects-menu button {
+        font-family: 'montserrat';
+        text-transform: capitalize;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 300;
+        color: #8c8c8c;
+        height: 32px;
+        border: 1px solid #ebebeb;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 0 20px;
+        border-radius: 3px;
+        background-color: #fff; }
+      /* line 779, ../sass/style.scss */
+      body main .projects .projects-menu button:hover {
+        background-color: #998675;
+        color: #fff; }
+    /* line 785, ../sass/style.scss */
     body main .projects .projects-cards {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
-      /* line 764, ../sass/style.scss */
+          flex-wrap: wrap;
+      width: 1170px;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      min-height: 725px;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+      margin: 0 0 40px 0; }
+      /* line 794, ../sass/style.scss */
       body main .projects .projects-cards article {
         width: 370px;
         min-height: 340px;
-        border: 1px solid #000; }
-        /* line 769, ../sass/style.scss */
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; }
+        /* line 799, ../sass/style.scss */
         body main .projects .projects-cards article .project-img {
           display: block;
           margin: 0;
           width: 370px;
-          height: 240px; }
+          height: 240px;
+          overflow: hidden; }
+        /* line 807, ../sass/style.scss */
+        body main .projects .projects-cards article .project-txt {
+          background-color: #fbfaf8;
+          padding: 30px 0 25px 30px; }
+          /* line 811, ../sass/style.scss */
+          body main .projects .projects-cards article .project-txt span {
+            font-family: 'raleway';
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: #c7b299;
+            text-align: left;
+            display: block;
+            margin: 0 0 6px 0; }
+          /* line 821, ../sass/style.scss */
+          body main .projects .projects-cards article .project-txt p {
+            font-family: 'montserrat';
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 300;
+            color: #d1d1d1;
+            text-align: left;
+            display: block;
+            margin: 0; }
+    /* line 836, ../sass/style.scss */
+    body main .projects .button-load-more {
+      min-width: 170px;
+      min-height: 50px;
+      padding: 14px;
+      background-color: #998675;
+      border-radius: 3px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      font-family: 'raleway';
+      font-size: 14px;
+      line-height: 23px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */

@@ -702,6 +702,7 @@ body {
                 }
                 h3 {
                     font-family: 'raleway';
+                    text-transform: capitalize;
                     font-size: 28px;
                     line-height: 1.2;
                     font-weight: 400;
@@ -736,11 +737,12 @@ body {
             
             h2 {
                 font-family: 'raleway';
+                text-transform: capitalize;
                 font-size: 30px;
                 line-height: 1.2;
                 font-weight: 600;
                 color: #555555;
-                margin: 0;
+                margin: 0 0 20px 0;
             }
             p {
                 font-family: 'montserrat';
@@ -749,32 +751,103 @@ body {
                 font-weight: 300;
                 color: #8c8c8c;
                 text-align: center;
-                margin: 0;
+                max-width: 760px;
+                margin: 0 0 40px 0;
             }
             
             .projects-menu {
-                border: 1px solid #000;
                 text-align: center;
+                min-width: 605px;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 0 40px 0;
+
+                button {
+                    font-family: 'montserrat';
+                    text-transform: capitalize;
+                    font-size: 14px;
+                    line-height: 21px;
+                    font-weight: 300;
+                    color: #8c8c8c;
+                    height: 32px;
+                    border: 1px solid #ebebeb;
+                    box-sizing: border-box;
+                    padding: 0 20px;
+                    border-radius: 3px;
+                    background-color: #fff;
+                }
+                button:hover {
+                    background-color: #998675;
+                    color: #fff;
+                }
             }
 
             .projects-cards {
                 display: flex;
                 flex-wrap: wrap;
+                width: 1170px;
+                justify-content: space-between;
+                min-height: 725px;
+                align-content: space-between;
+                margin: 0 0 40px 0;
 
                 article {
                     width: 370px;
                     min-height: 340px;
-                    border: 1px solid #000;
+                    box-sizing: border-box;
 
                     .project-img {
                         display: block;
                         margin: 0;
                         width: 370px;
                         height: 240px;
-                        // overflow: hidden;
+                        overflow: hidden;
+                    }
+
+                    .project-txt {
+                        background-color: #fbfaf8;
+                        padding: 30px 0 25px 30px;
+                        
+                        span {
+                            font-family: 'raleway';
+                            font-size: 20px;
+                            line-height: 1.2;
+                            font-weight: 500;
+                            color: #c7b299;
+                            text-align: left;
+                            display: block;
+                            margin: 0 0 6px 0;
+                        }
+                        p {
+                            font-family: 'montserrat';
+                            font-size: 14px;
+                            line-height: 20px;
+                            font-weight: 300;
+                            color: #d1d1d1;
+                            text-align: left;
+                            display: block;
+                            margin: 0;
+                        }
                     }
                     
                 }
+            }
+
+            .button-load-more {
+                min-width: 170px;
+                min-height: 50px;
+                padding: 14px;
+                background-color: #998675;
+                border-radius: 3px;
+                box-sizing: border-box;
+                font-family: 'raleway';
+                font-size: 14px;
+                line-height: 23px;
+                font-weight: 600;
+                text-transform: uppercase;
+                text-decoration: none;
+                text-align: center;
+                color: #ffffff;
             }
         }
     }
