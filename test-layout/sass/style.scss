@@ -340,9 +340,8 @@ body {
                 svg {
                     fill: #fff;
                 }
-            }
-
-            &-brand {
+                
+                .header-top-brand {
                 font-family: 'raleway';
                 font-size: 34px;
                 line-height: 1.2;
@@ -350,6 +349,16 @@ body {
                 font-style: normal;
                 letter-spacing: -0.04em;
                 color: #ffffff;
+                }
+            }
+            &-logo:hover {
+                svg {
+                    fill: #c7b299;
+                }
+                .header-top-brand {
+                    color: #c7b299;
+                }
+                
             }
 
             &-menu {
