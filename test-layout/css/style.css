@@ -510,12 +510,11 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 700px;
     padding: 80px 0 0 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-color: #fbfaf8; }
-    /* line 618, ../sass/style.scss */
+    /* line 617, ../sass/style.scss */
     body main .realization h2 {
       font-family: 'raleway';
       font-size: 30px;
@@ -523,7 +522,7 @@ body {
       font-weight: 600;
       color: #555555;
       margin: 0 0 24px 0; }
-    /* line 625, ../sass/style.scss */
+    /* line 624, ../sass/style.scss */
     body main .realization p {
       max-width: 770px;
       text-align: center;
@@ -533,7 +532,7 @@ body {
       font-weight: 300;
       color: #8c8c8c;
       margin: 0 0 40px 0; }
-    /* line 635, ../sass/style.scss */
+    /* line 634, ../sass/style.scss */
     body main .realization-images {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -545,14 +544,14 @@ body {
           -ms-flex-align: end;
               align-items: flex-end;
       position: relative; }
-      /* line 641, ../sass/style.scss */
+      /* line 640, ../sass/style.scss */
       body main .realization-images .img-center {
         position: relative;
         display: block;
         width: 770px;
         height: 482px;
         z-index: 2; }
-      /* line 649, ../sass/style.scss */
+      /* line 648, ../sass/style.scss */
       body main .realization-images .img-left {
         position: absolute;
         display: block;
@@ -560,7 +559,7 @@ body {
         height: 400px;
         right: 230px;
         z-index: 1; }
-      /* line 658, ../sass/style.scss */
+      /* line 657, ../sass/style.scss */
       body main .realization-images .img-right {
         position: absolute;
         display: block;
@@ -568,5 +567,68 @@ body {
         height: 400px;
         right: -230px;
         z-index: 1; }
+  /* line 668, ../sass/style.scss */
+  body main aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 150px;
+    padding: 44px 375px 44px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #f4f5f8;
+    background-image: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
+    background-image: linear-gradient(90deg, #211b19 0%, #4e3427 100%); }
+    /* line 677, ../sass/style.scss */
+    body main aside .aside-text {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      max-width: 700px; }
+      /* line 682, ../sass/style.scss */
+      body main aside .aside-text span {
+        font-family: 'raleway';
+        font-size: 28px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #c7b299;
+        margin: 0; }
+      /* line 690, ../sass/style.scss */
+      body main aside .aside-text h3 {
+        font-family: 'raleway';
+        font-size: 28px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #ffffff;
+        margin: 0; }
+      /* line 699, ../sass/style.scss */
+      body main aside .aside-text p {
+        margin: 0;
+        font-family: 'montserrat';
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #615855; }
+    /* line 708, ../sass/style.scss */
+    body main aside .purchase-now {
+      text-transform: uppercase;
+      font-family: 'raleway';
+      font-size: 14px;
+      line-height: 23px;
+      font-weight: 800;
+      color: #ffffff;
+      width: 170px;
+      height: 50px;
+      text-align: center;
+      background-color: #998675;
+      border-radius: 3px; }
 
 /*# sourceMappingURL=style.css.map */
