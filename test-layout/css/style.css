@@ -177,35 +177,57 @@
   src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("ttf");
   font-weight: 400;
   font-style: normal; }
+/* line 308, ../sass/style.scss */
 body {
   width: 1920px;
   margin: 0 auto;
+  padding: 0;
   font-family: 'montserrat', 'raleway', 'roboto', sans-serif; }
+  /* line 314, ../sass/style.scss */
   body .header {
     background-image: url(../img/header-photo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     height: 1024px;
     padding: 40px 150px; }
+    /* line 322, ../sass/style.scss */
     body .header-top {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-      align-items: center;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       max-width: 1170px;
       height: 56px;
       margin: 0 auto;
-      box-sizing: border-box; }
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      /* line 332, ../sass/style.scss */
       body .header-top-logo {
         text-decoration: none;
         width: 181px;
         height: 56px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
-        align-items: center; }
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        /* line 340, ../sass/style.scss */
         body .header-top-logo svg {
           fill: #fff; }
+      /* line 345, ../sass/style.scss */
       body .header-top-brand {
         font-family: 'raleway';
         font-size: 34px;
@@ -214,10 +236,16 @@ body {
         font-style: normal;
         letter-spacing: -0.04em;
         color: #ffffff; }
+      /* line 355, ../sass/style.scss */
       body .header-top-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         width: 637px; }
+        /* line 360, ../sass/style.scss */
         body .header-top-menu .menu-link {
           font-family: 'montserrat', sans-serif;
           font-size: 14px;
@@ -225,40 +253,53 @@ body {
           font-weight: 300;
           color: #ffffff;
           text-decoration: none; }
+        /* line 369, ../sass/style.scss */
         body .header-top-menu .menu-link:hover,
         body .header-top-menu .menu-link:active {
           color: #c7b299; }
+      /* line 375, ../sass/style.scss */
       body .header-top-action {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         height: 24px;
         width: 70px; }
+        /* line 381, ../sass/style.scss */
         body .header-top-action .cart {
           width: 18px;
           height: 24px;
           border: none;
           background-color: transparent;
           fill: #fff; }
+        /* line 389, ../sass/style.scss */
         body .header-top-action .cart:hover {
           fill: #c7b299; }
+        /* line 393, ../sass/style.scss */
         body .header-top-action form {
           width: 24px;
           height: 24px;
           position: relative; }
+          /* line 398, ../sass/style.scss */
           body .header-top-action form .header-search {
             display: block;
             width: 100%;
             height: 100%;
             fill: #fff;
             border: none; }
+          /* line 406, ../sass/style.scss */
           body .header-top-action form .header-search:hover {
             fill: #c7b299; }
+          /* line 410, ../sass/style.scss */
           body .header-top-action form #search {
             width: 0;
             min-height: 0;
             padding: 5px;
             outline: none;
-            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
             border: none;
             background-color: transparent;
             position: absolute;
@@ -267,31 +308,45 @@ body {
             color: #fff;
             font-size: 16px;
             text-transform: capitalize; }
+          /* line 426, ../sass/style.scss */
           body .header-top-action form #search:focus {
             width: 180px;
             min-height: 20px;
+            -webkit-transition: width 1s ease;
             transition: width 1s ease;
             border: 1px solid #d3c1ad;
             border-radius: 5px; }
+    /* line 437, ../sass/style.scss */
     body .header .carousel {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      align-items: center;
-      justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       max-width: 1620px;
       margin: 0 auto;
       padding: 285px 0 326px 0;
-      box-sizing: border-box; }
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      /* line 446, ../sass/style.scss */
       body .header .carousel-left {
         height: 73px;
         width: 40px;
         border: none;
         fill: #fff;
         background-color: transparent; }
+      /* line 454, ../sass/style.scss */
       body .header .carousel-item {
         text-align: center;
         width: 589px;
         min-height: 261px;
-        box-sizing: border-box; }
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; }
+        /* line 460, ../sass/style.scss */
         body .header .carousel-item h2 {
           font-size: 34px;
           color: #ffffff;
@@ -299,6 +354,7 @@ body {
           font-weight: 400;
           line-height: 1.2;
           margin: 0 0 10px 0; }
+        /* line 468, ../sass/style.scss */
         body .header .carousel-item h1 {
           font-size: 52px;
           color: #ffffff;
@@ -306,6 +362,7 @@ body {
           font-weight: 800;
           line-height: 1.2;
           margin: 0 0 10px 0; }
+        /* line 477, ../sass/style.scss */
         body .header .carousel-item p {
           font-size: 14px;
           line-height: 24px;
@@ -314,8 +371,11 @@ body {
           font-family: 'montserrat';
           margin: 0 0 48px 0;
           word-wrap: break-word;
-          hyphens: auto;
+          -webkit-hyphens: auto;
+              -ms-hyphens: auto;
+                  hyphens: auto;
           max-width: 562px; }
+        /* line 489, ../sass/style.scss */
         body .header .carousel-item .get-started {
           font-size: 14px;
           line-height: 23px;
@@ -327,23 +387,32 @@ body {
           height: 53px;
           border-radius: 3px;
           background-color: #988574; }
+        /* line 501, ../sass/style.scss */
         body .header .carousel-item .get-started:hover {
           color: #988574;
           background-color: #fff;
           font-size: 16px; }
+      /* line 508, ../sass/style.scss */
       body .header .carousel-right {
         height: 73px;
         width: 40px;
         border: none;
         background-color: transparent;
         fill: #fff; }
+      /* line 516, ../sass/style.scss */
       body .header .carousel-left:hover, body .header .carousel-right:hover {
         fill: #d3c1ad; }
+    /* line 523, ../sass/style.scss */
     body .header .carousel-pages {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       margin: 0 auto;
       width: 100px;
-      justify-content: space-between; }
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      /* line 529, ../sass/style.scss */
       body .header .carousel-pages .page-button {
         display: block;
         width: 10px;
@@ -352,10 +421,152 @@ body {
         opacity: 0.5;
         border-radius: 50%;
         border: 2px solid transparent;
-        box-sizing: border-box; }
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; }
+      /* line 540, ../sass/style.scss */
       body .header .carousel-pages .page-button:hover {
         background-color: rgba(255, 255, 255, 0);
-        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+                transform: scale(1.5);
         border: 2px solid #d3c1ad; }
+  /* line 550, ../sass/style.scss */
+  body main .features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 80px 0 80px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center; }
+    /* line 557, ../sass/style.scss */
+    body main .features-block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      max-width: 266px;
+      margin: 0 30px 0 0; }
+      /* line 565, ../sass/style.scss */
+      body main .features-block svg:first-of-type {
+        display: block;
+        width: 100%;
+        height: 49px;
+        fill: #555555;
+        margin: 0 0 25px 0; }
+      /* line 573, ../sass/style.scss */
+      body main .features-block svg:last-of-type {
+        fill: #f1eee9;
+        width: 100%;
+        margin: 0; }
+      /* line 579, ../sass/style.scss */
+      body main .features-block h3 {
+        width: 100%;
+        font-family: 'raleway';
+        font-size: 22px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #555555;
+        margin: 0 0 15px 0;
+        text-transform: capitalize; }
+      /* line 587, ../sass/style.scss */
+      body main .features-block p {
+        width: 100%;
+        font-family: 'montserrat';
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #8c8c8c;
+        margin: 0 0 25px 0;
+        word-break: break-word; }
+    /* line 595, ../sass/style.scss */
+    body main .features-block:last-child {
+      margin: 0; }
+    /* line 600, ../sass/style.scss */
+    body main .features-block:hover svg {
+      fill: #c7b299; }
+    /* line 603, ../sass/style.scss */
+    body main .features-block:hover h3 {
+      color: #c7b299; }
+  /* line 609, ../sass/style.scss */
+  body main .realization {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 700px;
+    padding: 80px 0 0 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #fbfaf8; }
+    /* line 618, ../sass/style.scss */
+    body main .realization h2 {
+      font-family: 'raleway';
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: 600;
+      color: #555555;
+      margin: 0 0 24px 0; }
+    /* line 625, ../sass/style.scss */
+    body main .realization p {
+      max-width: 770px;
+      text-align: center;
+      font-family: 'montserrat';
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 300;
+      color: #8c8c8c;
+      margin: 0 0 40px 0; }
+    /* line 635, ../sass/style.scss */
+    body main .realization-images {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      position: relative; }
+      /* line 641, ../sass/style.scss */
+      body main .realization-images .img-center {
+        position: relative;
+        display: block;
+        width: 770px;
+        height: 482px;
+        z-index: 2; }
+      /* line 649, ../sass/style.scss */
+      body main .realization-images .img-left {
+        position: absolute;
+        display: block;
+        width: 770px;
+        height: 400px;
+        right: 230px;
+        z-index: 1; }
+      /* line 658, ../sass/style.scss */
+      body main .realization-images .img-right {
+        position: absolute;
+        display: block;
+        width: 770px;
+        height: 400px;
+        right: -230px;
+        z-index: 1; }
 
 /*# sourceMappingURL=style.css.map */
