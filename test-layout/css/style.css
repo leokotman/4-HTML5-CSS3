@@ -684,7 +684,14 @@ body {
           flex-wrap: wrap; }
       /* line 764, ../sass/style.scss */
       body main .projects .projects-cards article {
-        width: 30%;
+        width: 370px;
+        min-height: 340px;
         border: 1px solid #000; }
+        /* line 769, ../sass/style.scss */
+        body main .projects .projects-cards article .project-img {
+          display: block;
+          margin: 0;
+          width: 370px;
+          height: 240px; }
 
 /*# sourceMappingURL=style.css.map */

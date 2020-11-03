@@ -762,16 +762,18 @@ body {
                 flex-wrap: wrap;
 
                 article {
-                    width: 30%;
+                    width: 370px;
+                    min-height: 340px;
                     border: 1px solid #000;
 
-                    // img {
-                    //     display: block;
-                    //     margin: 0 auto;
-                    //     width: 370px;
-                    //     height: 340px;
-                        
-                    // }
+                    .project-img {
+                        display: block;
+                        margin: 0;
+                        width: 370px;
+                        height: 240px;
+                        // overflow: hidden;
+                    }
+                    
                 }
             }
         }
