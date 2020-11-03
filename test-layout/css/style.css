@@ -724,14 +724,14 @@ body {
         width: 370px;
         min-height: 340px;
         -webkit-box-sizing: border-box;
-                box-sizing: border-box; }
-        /* line 799, ../sass/style.scss */
+                box-sizing: border-box;
+        position: relative; }
+        /* line 800, ../sass/style.scss */
         body main .projects .projects-cards article .project-img {
           display: block;
           margin: 0;
           width: 370px;
-          height: 240px;
-          overflow: hidden; }
+          height: 240px; }
         /* line 807, ../sass/style.scss */
         body main .projects .projects-cards article .project-txt {
           background-color: #fbfaf8;
@@ -756,7 +756,30 @@ body {
             text-align: left;
             display: block;
             margin: 0; }
-    /* line 836, ../sass/style.scss */
+        /* line 833, ../sass/style.scss */
+        body main .projects .projects-cards article .hover-links {
+          display: none;
+          width: 80px;
+          height: 26px;
+          position: absolute;
+          top: 106px;
+          left: 144px; }
+          /* line 841, ../sass/style.scss */
+          body main .projects .projects-cards article .hover-links .link {
+            background: url(../img/link.svg) no-repeat #C7B299;
+            display: block;
+            height: 26px;
+            width: 26px; }
+          /* line 847, ../sass/style.scss */
+          body main .projects .projects-cards article .hover-links .zoom {
+            background: url(../img/zoom.svg) no-repeat #fff;
+            display: block;
+            height: 26px;
+            width: 26px; }
+      /* line 857, ../sass/style.scss */
+      body main .projects .projects-cards article:hover .hover-links {
+        display: block; }
+    /* line 865, ../sass/style.scss */
     body main .projects .button-load-more {
       min-width: 170px;
       min-height: 50px;

@@ -795,13 +795,13 @@ body {
                     width: 370px;
                     min-height: 340px;
                     box-sizing: border-box;
+                    position: relative;
 
                     .project-img {
                         display: block;
                         margin: 0;
                         width: 370px;
                         height: 240px;
-                        overflow: hidden;
                     }
 
                     .project-txt {
@@ -829,6 +829,35 @@ body {
                             margin: 0;
                         }
                     }
+
+                    .hover-links {
+                        display: none;
+                        width: 80px;
+                        height: 26px;
+                        position: absolute;
+                        top: 106px;
+                        left: 144px;
+                        
+                        .link {
+                            background: url(../img/link.svg) no-repeat #C7B299;
+                            display: block;
+                            height: 26px;
+                            width: 26px;
+                        }
+                        .zoom {
+                            background: url(../img/zoom.svg) no-repeat #fff;
+                            display: block;
+                            height: 26px;
+                            width: 26px;
+                        }
+                    }
+                    
+                }
+
+                article:hover .hover-links {
+                    display: block;
+                }
+                article:hover .project-img {
                     
                 }
             }
