@@ -559,7 +559,7 @@ body {
         .features {
             display: flex;
             justify-content: center;
-            padding: 78px 0 78px;
+            padding: 78px 0 113px;
             box-sizing: border-box;
             text-align: center;
 
@@ -567,7 +567,7 @@ body {
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                // justify-content: space-between;
                 max-width: 266px;
                 min-height: 214px;
                 margin: 0 30px 0 0;
@@ -592,16 +592,30 @@ body {
 
                 p {
                     width: 100%;
-                    font-family: 'montserrat';font-size: 14px;line-height: 24px;font-weight: 300;color: #8c8c8c;
+                    font-family: 'montserrat';
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-weight: 300;
+                    color: #8c8c8c;
                     margin: 0;
                     word-break: break-word;
+                    position: relative;
+                }
+
+                p::after{
+                    content:"";
+                    position:absolute;
+                    bottom: -20px;
+                    left: 98px;
+                    width: 70px;
+                    border: 3px solid #f1eee9;
                 }
                 
-                svg {
-                    fill: #f1eee9;
-                    width: 100%;
-                    margin: 0;
-                }
+                // svg {
+                //     fill: #f1eee9;
+                //     width: 100%;
+                //     margin: 0;
+                // }
             }
 
             &-block:last-child {

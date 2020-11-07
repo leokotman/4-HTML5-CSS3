@@ -177,57 +177,36 @@
   src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("ttf");
   font-weight: 400;
   font-style: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003308}}
 body {
   width: 1920px;
   margin: 0 auto;
   padding: 0;
   font-family: 'montserrat', 'raleway', 'roboto', sans-serif; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003314}}
   body .header {
     background-image: url(../img/header-photo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     height: 1024px;
     padding: 40px 150px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003322}}
     body .header-top {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
       max-width: 1170px;
       height: 56px;
       margin: 0 auto;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003332}}
+      box-sizing: border-box; }
       body .header-top-logo {
         text-decoration: none;
         width: 181px;
         height: 56px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003340}}
+        justify-content: space-between;
+        align-items: center; }
         body .header-top-logo svg {
           fill: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003344}}
         body .header-top-logo .header-top-brand {
           font-family: 'raleway';
           font-size: 34px;
@@ -236,22 +215,14 @@ body {
           font-style: normal;
           letter-spacing: -0.04em;
           color: #ffffff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003355}}
       body .header-top-logo:hover svg {
         fill: #c7b299; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003358}}
       body .header-top-logo:hover .header-top-brand {
         color: #c7b299; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003364}}
       body .header-top-menu {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        justify-content: space-between;
         width: 637px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003369}}
         body .header-top-menu .menu-link {
           font-family: 'montserrat', sans-serif;
           font-size: 14px;
@@ -259,53 +230,40 @@ body {
           font-weight: 300;
           color: #ffffff;
           text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003378}}
         body .header-top-menu .menu-link:hover,
         body .header-top-menu .menu-link:active {
           color: #c7b299; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003384}}
       body .header-top-action {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        justify-content: space-between;
         height: 24px;
         width: 70px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003390}}
         body .header-top-action .cart {
           width: 18px;
           height: 24px;
           border: none;
           background-color: transparent;
           fill: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003398}}
         body .header-top-action .cart:hover {
           fill: #c7b299; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003402}}
         body .header-top-action form {
           width: 24px;
           height: 24px;
           position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003407}}
           body .header-top-action form .header-search {
             display: block;
             width: 100%;
             height: 100%;
             fill: #fff;
             border: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003415}}
           body .header-top-action form .header-search:hover {
             fill: #c7b299; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003419}}
           body .header-top-action form #search {
             width: 0;
             min-height: 0;
             padding: 5px;
             outline: none;
-            -webkit-box-sizing: border-box;
-                    box-sizing: border-box;
+            box-sizing: border-box;
             border: none;
             background-color: transparent;
             position: absolute;
@@ -314,45 +272,31 @@ body {
             color: #fff;
             font-size: 16px;
             text-transform: capitalize; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003435}}
           body .header-top-action form #search:focus {
             width: 180px;
             min-height: 20px;
-            -webkit-transition: width 1s ease;
             transition: width 1s ease;
             border: 1px solid #d3c1ad;
             border-radius: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003446}}
     body .header .carousel {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
+      align-items: center;
+      justify-content: space-between;
       max-width: 1620px;
       margin: 0 auto;
       padding: 285px 0 326px 0;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003455}}
+      box-sizing: border-box; }
       body .header .carousel-left {
         height: 73px;
         width: 40px;
         border: none;
         fill: #fff;
         background-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003463}}
       body .header .carousel-item {
         text-align: center;
         width: 589px;
         min-height: 261px;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003469}}
+        box-sizing: border-box; }
         body .header .carousel-item h2 {
           font-size: 34px;
           color: #ffffff;
@@ -360,7 +304,6 @@ body {
           font-weight: 400;
           line-height: 1.2;
           margin: 0 0 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003477}}
         body .header .carousel-item h1 {
           font-size: 52px;
           color: #ffffff;
@@ -368,7 +311,6 @@ body {
           font-weight: 800;
           line-height: 1.2;
           margin: 0 0 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003486}}
         body .header .carousel-item p {
           font-size: 14px;
           line-height: 24px;
@@ -377,11 +319,8 @@ body {
           font-family: 'montserrat';
           margin: 0 0 48px 0;
           word-wrap: break-word;
-          -webkit-hyphens: auto;
-              -ms-hyphens: auto;
-                  hyphens: auto;
+          hyphens: auto;
           max-width: 562px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003498}}
         body .header .carousel-item .get-started {
           font-size: 14px;
           line-height: 23px;
@@ -393,32 +332,23 @@ body {
           height: 53px;
           border-radius: 3px;
           background-color: #988574; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003510}}
         body .header .carousel-item .get-started:hover {
           color: #988574;
           background-color: #fff;
           font-size: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003517}}
       body .header .carousel-right {
         height: 73px;
         width: 40px;
         border: none;
         background-color: transparent;
         fill: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003525}}
       body .header .carousel-left:hover, body .header .carousel-right:hover {
         fill: #d3c1ad; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003532}}
     body .header .carousel-pages {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       margin: 0 auto;
       width: 100px;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003538}}
+      justify-content: space-between; }
       body .header .carousel-pages .page-button {
         display: block;
         width: 10px;
@@ -427,51 +357,30 @@ body {
         opacity: 0.5;
         border-radius: 50%;
         border: 2px solid transparent;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003549}}
+        box-sizing: border-box; }
       body .header .carousel-pages .page-button:hover {
         background-color: rgba(255, 255, 255, 0);
-        -webkit-transform: scale(1.5);
-                transform: scale(1.5);
+        transform: scale(1.5);
         border: 2px solid #d3c1ad; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003559}}
   body main .features {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 78px 0 78px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    justify-content: center;
+    padding: 78px 0 113px;
+    box-sizing: border-box;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003566}}
     body main .features-block {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
+      flex-direction: column;
+      flex-wrap: wrap;
       max-width: 266px;
       min-height: 214px;
       margin: 0 30px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003576}}
       body main .features-block .features-block-name svg {
         display: block;
         width: 100%;
         height: 49px;
         fill: #555555;
         margin: 0 0 29px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003584}}
       body main .features-block .features-block-name h3 {
         width: 100%;
         font-family: 'raleway';
@@ -481,7 +390,6 @@ body {
         color: #555555;
         margin: 0;
         text-transform: capitalize; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003593}}
       body main .features-block p {
         width: 100%;
         font-family: 'montserrat';
@@ -490,38 +398,28 @@ body {
         font-weight: 300;
         color: #8c8c8c;
         margin: 0;
-        word-break: break-word; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003600}}
-      body main .features-block svg {
-        fill: #f1eee9;
-        width: 100%;
-        margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003607}}
+        word-break: break-word;
+        position: relative; }
+      body main .features-block p::after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 98px;
+        width: 70px;
+        border: 3px solid #f1eee9; }
     body main .features-block:last-child {
       margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003612}}
     body main .features-block:hover svg {
       fill: #c7b299; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003615}}
     body main .features-block:hover h3 {
       color: #c7b299; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003621}}
   body main .realization {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     padding: 80px 0 0 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     background-color: #fbfaf8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003629}}
     body main .realization h2 {
       font-family: 'raleway';
       font-size: 30px;
@@ -529,7 +427,6 @@ body {
       font-weight: 600;
       color: #555555;
       margin: 0 0 24px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003636}}
     body main .realization p {
       max-width: 770px;
       text-align: center;
@@ -539,26 +436,17 @@ body {
       font-weight: 300;
       color: #8c8c8c;
       margin: 0 0 40px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003646}}
     body main .realization-images {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: end;
-          -ms-flex-align: end;
-              align-items: flex-end;
+      justify-content: center;
+      align-items: flex-end;
       position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003652}}
       body main .realization-images .img-center {
         position: relative;
         display: block;
         width: 770px;
         height: 482px;
         z-index: 2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003660}}
       body main .realization-images .img-left {
         position: absolute;
         display: block;
@@ -566,12 +454,9 @@ body {
         height: 400px;
         right: 230px;
         z-index: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003668}}
       body main .realization-images .img-left:hover {
         z-index: 3;
-        -webkit-transform: scale(1.1);
-                transform: scale(1.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003673}}
+        transform: scale(1.1); }
       body main .realization-images .img-right {
         position: absolute;
         display: block;
@@ -579,38 +464,22 @@ body {
         height: 400px;
         right: -230px;
         z-index: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003681}}
       body main .realization-images .img-right:hover {
         z-index: 3;
-        -webkit-transform: scale(1.1);
-                transform: scale(1.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003690}}
+        transform: scale(1.1); }
   body main aside {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     height: 150px;
     padding: 44px 375px 44px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     background-color: #f4f5f8;
-    background-image: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
     background-image: linear-gradient(90deg, #211b19 0%, #4e3427 100%); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003699}}
     body main aside .aside-text {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+      flex-wrap: wrap;
       max-width: 700px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003704}}
       body main aside .aside-text span {
         font-family: 'raleway';
         font-size: 28px;
@@ -618,7 +487,6 @@ body {
         font-weight: 400;
         color: #c7b299;
         margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003712}}
       body main aside .aside-text h3 {
         font-family: 'raleway';
         text-transform: capitalize;
@@ -627,7 +495,6 @@ body {
         font-weight: 400;
         color: #ffffff;
         margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003722}}
       body main aside .aside-text p {
         margin: 0;
         font-family: 'montserrat';
@@ -635,7 +502,6 @@ body {
         line-height: 1.2;
         font-weight: 300;
         color: #615855; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003731}}
     body main aside .purchase-now {
       text-transform: uppercase;
       font-family: 'raleway';
@@ -645,30 +511,19 @@ body {
       color: #ffffff;
       width: 170px;
       height: 50px;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
+      box-sizing: border-box;
       text-align: center;
       background-color: #998675;
       border-radius: 3px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003745}}
     body main aside .purchase-now:hover {
       background-color: #fff;
       color: #998675;
       border: #998675; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003752}}
   body main .projects {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     padding: 80px 375px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003758}}
     body main .projects h2 {
       font-family: 'raleway';
       text-transform: capitalize;
@@ -677,7 +532,6 @@ body {
       font-weight: 600;
       color: #555555;
       margin: 0 0 20px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003767}}
     body main .projects p {
       font-family: 'montserrat';
       font-size: 16px;
@@ -687,18 +541,12 @@ body {
       text-align: center;
       max-width: 760px;
       margin: 0 0 40px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003778}}
     body main .projects .projects-menu {
       text-align: center;
       min-width: 605px;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
+      justify-content: space-between;
       margin: 0 0 40px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003785}}
       body main .projects .projects-menu button {
         font-family: 'montserrat';
         text-transform: capitalize;
@@ -708,49 +556,35 @@ body {
         color: #8c8c8c;
         height: 32px;
         border: 1px solid #ebebeb;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
+        box-sizing: border-box;
         padding: 0 20px;
         border-radius: 3px;
         background-color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003799}}
       body main .projects .projects-menu button:hover {
         background-color: #998675;
         color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003805}}
     body main .projects .projects-cards {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+      flex-wrap: wrap;
       width: 1170px;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
+      justify-content: space-between;
       min-height: 725px;
-      -ms-flex-line-pack: justify;
-          align-content: space-between;
+      align-content: space-between;
       margin: 0 0 40px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003814}}
       body main .projects .projects-cards article {
         width: 370px;
         min-height: 340px;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
+        box-sizing: border-box;
         position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003820}}
         body main .projects .projects-cards article .project-img {
           display: block;
           margin: 0;
           width: 370px;
           height: 240px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003827}}
         body main .projects .projects-cards article .project-txt {
           background-color: #fbfaf8;
           padding: 30px 0 25px 30px;
           position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003832}}
           body main .projects .projects-cards article .project-txt span {
             font-family: 'raleway';
             font-size: 20px;
@@ -760,7 +594,6 @@ body {
             text-align: left;
             display: block;
             margin: 0 0 6px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003842}}
           body main .projects .projects-cards article .project-txt p {
             font-family: 'montserrat';
             font-size: 14px;
@@ -770,7 +603,6 @@ body {
             text-align: left;
             display: block;
             margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003854}}
         body main .projects .projects-cards article .project-txt::before {
           content: "";
           border: 15px solid transparent;
@@ -778,7 +610,6 @@ body {
           position: absolute;
           top: -23px;
           left: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003863}}
         body main .projects .projects-cards article .hover-links {
           display: none;
           min-width: 80px;
@@ -786,36 +617,27 @@ body {
           position: absolute;
           top: 106px;
           left: 144px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003871}}
           body main .projects .projects-cards article .hover-links .link {
             background: url(../img/link.svg) no-repeat;
             display: inline-block;
             height: 26px;
             width: 26px;
             margin-right: 26px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003878}}
           body main .projects .projects-cards article .hover-links .zoom {
             background: url(../img/zoom.svg) no-repeat;
             display: inline-block;
             height: 26px;
             width: 26px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003889}}
       body main .projects .projects-cards article:hover .hover-links {
         display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003893}}
       body main .projects .projects-cards article:hover .project-img {
-        -webkit-filter: brightness(0.3) sepia(0.15);
-                filter: brightness(0.3) sepia(0.15); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003897}}
+        filter: brightness(0.3) sepia(0.15); }
       body main .projects .projects-cards article:hover .project-txt {
         background-color: #362f2d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003899}}
         body main .projects .projects-cards article:hover .project-txt span {
           color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003902}}
         body main .projects .projects-cards article:hover .project-txt p {
           color: #c7b299; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003906}}
       body main .projects .projects-cards article:hover .project-txt::before {
         content: "";
         border: 15px solid transparent;
@@ -823,15 +645,13 @@ body {
         position: absolute;
         top: -23px;
         left: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003917}}
     body main .projects .button-load-more {
       min-width: 170px;
       min-height: 50px;
       padding: 14px;
       background-color: #998675;
       border-radius: 3px;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
+      box-sizing: border-box;
       font-family: 'raleway';
       font-size: 14px;
       line-height: 23px;
@@ -840,7 +660,6 @@ body {
       text-decoration: none;
       text-align: center;
       color: #ffffff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\00003933}}
     body main .projects .button-load-more:hover {
       background-color: #fff;
       color: #998675;
