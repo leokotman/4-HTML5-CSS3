@@ -758,20 +758,24 @@ body {
       body main .video-presentation .video-text img {
         width: 101px;
         height: 101px;
-        margin: 0 auto; }
+        margin: 0 auto 40px; }
       body main .video-presentation .video-text h2 {
+        margin: 0;
         font-family: 'raleway';
         font-size: 30px;
         line-height: 1.2;
         font-weight: 500;
-        color: #fff; }
+        color: #fff;
+        text-transform: capitalize; }
       body main .video-presentation .video-text-paragraph {
+        margin: 25px 0 40px 0;
         font-family: 'montserrat';
         font-size: 16px;
         line-height: 28px;
         font-weight: 300;
         color: #fff; }
       body main .video-presentation .video-text .video-time {
+        margin: 0;
         font-family: 'montserrat';
         font-size: 14px;
         line-height: 24px;
@@ -780,5 +784,55 @@ body {
     body main .video-presentation .video:hover .video-text,
     body main .video-presentation .video:active .video-text {
       z-index: -2; }
+  body main .mobile {
+    display: flex;
+    justify-content: center;
+    background-color: #fbfaf8;
+    min-height: 695px;
+    padding: 79px 0 0 0;
+    flex-wrap: wrap; }
+    body main .mobile img {
+      max-width: 423px;
+      max-height: 616px;
+      display: block; }
+    body main .mobile-text {
+      max-width: 660px;
+      padding: 116px 0 0 0; }
+      body main .mobile-text h2 {
+        margin: 0 0 30px 0;
+        text-transform: capitalize;
+        font-family: 'raleway';
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #555555; }
+      body main .mobile-text p {
+        margin: 0 0 35px 0;
+        font-family: 'montserrat';
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #8c8c8c; }
+      body main .mobile-text ul {
+        margin: 0;
+        font-family: 'montserrat';
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 300;
+        color: #8c8c8c;
+        list-style-type: none;
+        padding-left: 100px; }
+        body main .mobile-text ul li {
+          position: relative; }
+        body main .mobile-text ul li:before {
+          content: "";
+          display: block;
+          width: 21px;
+          height: 21px;
+          position: absolute;
+          top: 5px;
+          left: -50px;
+          background-image: url(../img/list-arrow.png);
+          background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

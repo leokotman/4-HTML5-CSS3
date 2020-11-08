@@ -1066,16 +1066,19 @@ body {
                 img {
                     width: 101px;
                     height: 101px;
-                    margin: 0 auto;
+                    margin: 0 auto 40px;
                 }
                 h2 {
+                    margin: 0;
                     font-family: 'raleway';
                     font-size: 30px;
                     line-height: 1.2;
                     font-weight: 500;
                     color: #fff;
+                    text-transform: capitalize;
                 }
                 &-paragraph {
+                    margin: 25px 0 40px 0;
                     font-family: 'montserrat';
                     font-size: 16px;
                     line-height: 28px;
@@ -1083,6 +1086,7 @@ body {
                     color: #fff;
                 }
                 .video-time {
+                    margin: 0;
                     font-family: 'montserrat';
                     font-size: 14px;
                     line-height: 24px;
@@ -1095,6 +1099,70 @@ body {
             .video:active {
                 .video-text {
                     z-index: -2;  
+                }
+            }
+        }
+
+        .mobile {
+            display: flex;
+            justify-content: center;
+            background-color: #fbfaf8;
+            min-height: 695px;
+            padding: 79px 0 0 0;
+            flex-wrap: wrap;
+
+            img {
+                max-width: 423px;
+                max-height: 616px;
+                display: block;
+            }
+
+            &-text {
+                max-width: 660px;
+                padding: 116px 0 0 0;
+
+                h2 {
+                    margin: 0 0 30px 0;
+                    text-transform: capitalize;
+                    font-family: 'raleway';
+                    font-size: 30px;
+                    line-height: 1.2;
+                    font-weight: 600;
+                    color: #555555;
+                }
+                p {
+                    margin: 0 0 35px 0;
+                    font-family: 'montserrat';
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-weight: 300;
+                    color: #8c8c8c;
+                }
+                ul {
+                    margin: 0;
+                    font-family: 'montserrat';
+                    font-size: 16px;
+                    line-height: 32px;
+                    font-weight: 300;
+                    color: #8c8c8c;
+                    list-style-type: none;
+                    padding-left: 100px;
+
+                    li {
+                        position: relative;
+                    }
+
+                    li:before {
+                        content: "";
+                        display: block;
+                        width: 21px;
+                        height: 21px;
+                        position: absolute;
+                        top: 5px;
+                        left: -50px;
+                        background-image: url(../img/list-arrow.png);
+                        background-size: cover;
+                    }
                 }
             }
         }
