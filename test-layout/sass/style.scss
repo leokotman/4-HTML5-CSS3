@@ -1226,5 +1226,62 @@ body {
             }
             
         }
+
+        .posts {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                text-transform: capitalize;
+            }
+            p {
+
+            }
+            .posts-block {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                article {
+                    border: 1px solid #000;
+                    position: relative;
+                    max-width: 30%;
+
+                    img {
+                        
+                    }
+                    .post-text {
+                        background-color: #fff;
+
+                        span {
+
+                        }
+                        p {
+
+                        }
+                        a {
+
+                        }
+                    }
+                    .post-date {
+                        position: absolute;
+                        top: 10px;
+                        left: 10px;
+                        background-color: darkslategray;
+                    }
+                }
+            }
+            .posts-slider {
+                width: 40px;
+                border: 1px solid #000;
+            }
+        }
+
+        .partners {
+            min-height: 600px;
+            background-image: url();
+        }
     }
 }
