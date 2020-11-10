@@ -1213,7 +1213,7 @@ body {
             flex-direction: column;
             align-items: center;
 
-            p {
+            .main-text {
                 max-width: 40%;
             }
 
@@ -1231,19 +1231,32 @@ body {
                     box-sizing: border-box;
                     position: relative;
                     
+                    &:hover,
+                    &:focus {
+                        .article-images {
+                            filter: brightness(0.3);
+                            transition: ease 0.5s;
+                        }
+                    }
+
                     .article-images {
-                        height: 220px;
+                        height: 220px; 
+                        
+                        &:hover,
+                        &:focus {
+                            filter: brightness(1);
+                        }
 
                         .post-slider {
                             position: relative;
                             width: 100%;
                             height: 100%;
+                            transition-timing-function: ease;
                         
                             .img-slider {
                                 position: absolute;
                                 width: 370px;
                                 height: 220px;
-                                // object-fit: fill;
                                 object-fit: cover;
                                 top: 0;
                                 left: 0;
@@ -1302,17 +1315,36 @@ body {
 
                     .post-text {
                         background-color: #fff;
+                        padding: 30px;
+                        min-height: 175;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
 
-                        span {
-
+                        .post-heading {
+                            font-family: 'raleway';
+                            font-size: 20px;
+                            line-height: 1.2;
+                            font-weight: 500;
+                            color: #555555;
                         }
                         p {
-
+                            font-family: 'montserrat';
+                            font-size: 14px;
+                            line-height: 22px;
+                            font-weight: 300;
+                            color: #8c8c8c;
                         }
-                        a {
-
+                        .post-link {
+                            font-family: 'montserrat';
+                            font-size: 14px;
+                            line-height: 20px;
+                            font-weight: 300;
+                            color: #c7b299;
+                            text-decoration: none;
                         }
                     }
+
                     .post-date {
                         position: absolute;
                         top: 10px;
@@ -1343,6 +1375,7 @@ body {
                         }
                     }
                 }
+
                 .article-post:last-child {
                     margin: 0;
                 }
