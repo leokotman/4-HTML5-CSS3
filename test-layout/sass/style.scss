@@ -1368,6 +1368,15 @@ body {
                             font-weight: 300;
                             color: #c7b299;
                             text-decoration: none;
+
+                            &:hover,
+                            &:focus {
+                                color: #fff;
+                                font-size: 1.05em;
+                            }
+                            &:active {
+                                color: #c7b299;
+                            }
                         }
                     }
 
@@ -1409,22 +1418,42 @@ body {
             }
             .posts-slider {
                 width: 40px;
-                border: 1px solid #000;
+                display: flex;
+                box-sizing: border-box;
+                justify-content: space-between;
                 width: 52px;
-                height: 22px;
+                height: 25px;
+                margin: 40px 0 0 0;
 
-                .slider-button:first-child {
-                    display: inline-block;
-                    background: url(../img/arrow-left.svg) no-repeat;
-                    width: 22px;
-                    height: 22px;
+                .slider-button {
+                    fill: #d1d1d1;
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    background-color: transparent;
+
+                    &:hover,
+                    &:focus {
+                        fill: #c7b299;
+                    }
+                    &:active {
+                        fill: #362f2d;
+                    }
                 }
-                .slider-button:last-child {
-                    display: inline-block;
-                    background: url(../img/arrow-right.svg) no-repeat;
-                    width: 22px;
-                    height: 22px;
-                }
+                
+
+                // .slider-button:first-child {
+                //     display: inline-block;
+                //     background: url(../img/arrow-left.svg) no-repeat;
+                //     width: 22px;
+                //     height: 22px;
+                // }
+                // .slider-button:last-child {
+                //     display: inline-block;
+                //     background: url(../img/arrow-right.svg) no-repeat;
+                //     width: 22px;
+                //     height: 22px;
+                // }
             }
         }
 

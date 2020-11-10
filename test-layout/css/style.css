@@ -1286,7 +1286,14 @@ body {
             font-weight: 300;
             color: #c7b299;
             text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031372}}
+            body main .posts .posts-block .article-post .post-text .post-link:hover, body main .posts .posts-block .article-post .post-text .post-link:focus {
+              color: #fff;
+              font-size: 1.05em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031377}}
+            body main .posts .posts-block .article-post .post-text .post-link:active {
+              color: #c7b299; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031383}}
         body main .posts .posts-block .article-post .post-date {
           position: absolute;
           top: 10px;
@@ -1302,7 +1309,7 @@ body {
               -ms-flex-direction: column;
                   flex-direction: column;
           text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031393}}
           body main .posts .posts-block .article-post .post-date-day {
             font-family: 'montserrat';
             font-size: 24px;
@@ -1311,7 +1318,7 @@ body {
             color: #fff;
             width: 50px;
             background-color: #363636; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031402}}
           body main .posts .posts-block .article-post .post-date-month {
             font-family: 'roboto';
             font-size: 12px;
@@ -1320,28 +1327,37 @@ body {
             color: #fff;
             width: 50px;
             background-color: #252525; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031414}}
       body main .posts .posts-block .article-post:last-child {
         margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031419}}
     body main .posts .posts-slider {
       width: 40px;
-      border: 1px solid #000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       width: 52px;
-      height: 22px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031416}}
-      body main .posts .posts-slider .slider-button:first-child {
-        display: inline-block;
-        background: url(../img/arrow-left.svg) no-repeat;
-        width: 22px;
-        height: 22px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031422}}
-      body main .posts .posts-slider .slider-button:last-child {
-        display: inline-block;
-        background: url(../img/arrow-right.svg) no-repeat;
-        width: 22px;
-        height: 22px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031431}}
+      height: 25px;
+      margin: 40px 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031428}}
+      body main .posts .posts-slider .slider-button {
+        fill: #d1d1d1;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031435}}
+        body main .posts .posts-slider .slider-button:hover, body main .posts .posts-slider .slider-button:focus {
+          fill: #c7b299; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031439}}
+        body main .posts .posts-slider .slider-button:active {
+          fill: #362f2d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leokotman\/Documents\/IT\/4\.HTML5-CSS3-webinar\/4-HTML5-CSS3\/test-layout\/sass\/style\.scss}line{font-family:\000031460}}
   body main .partners {
     min-height: 600px;
     background-image: url(); }
