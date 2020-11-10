@@ -1237,10 +1237,30 @@ body {
                             filter: brightness(0.3);
                             transition: ease 0.5s;
                         }
+                        .post-text {
+                            background-color: #362f2d;
+                            transition: ease 0.5s;
+
+                            .post-heading {
+                                color: #c7b299;
+                            }
+                            p {
+                                color: #fff;
+                            }
+                        }
+                        .post-date {
+                            &-day {
+                                background-color: #c7b299;
+                            }
+                            &-month {
+                                background-color: #a48d72;
+                            }
+                        }
                     }
 
                     .article-images {
-                        height: 220px; 
+                        height: 220px;
+                        object-fit: cover; 
                         
                         &:hover,
                         &:focus {
