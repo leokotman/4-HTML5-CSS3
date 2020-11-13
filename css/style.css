@@ -24,7 +24,7 @@ body {
     box-sizing: border-box;
     float: left;
     margin: 0;
-    width: ;
+    max-width: 50%;
 }
 
 .page-header-title {
@@ -61,6 +61,7 @@ body {
     left: 0;
     background-image: url(../img/check-icon.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .page-header-img {
@@ -480,7 +481,7 @@ textarea[placeholder] {
 }
 
 #message {
-    height: 170px;
+    min-height: 170px;
     padding-top: 10px;
     resize: none;
 }
