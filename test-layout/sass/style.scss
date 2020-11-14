@@ -304,7 +304,7 @@
 
 
 body {
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
     padding: 0;
     font-family: 'montserrat', 'raleway', 'roboto', sans-serif;
@@ -379,11 +379,11 @@ body {
 
     .header {
         background-image: url(../img/header-photo.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         box-sizing: border-box;
-        height: 1024px;
-        padding: 40px 150px;
+        max-height: 1024px;
+        padding: 2.1% 7.8%;
 
         &-top {
             display: flex;
@@ -500,7 +500,7 @@ body {
             justify-content: space-between;
             max-width: 1620px;
             margin: 0 auto;
-            padding: 285px 0 326px 0;
+            padding: 17.5% 0 20.1% 0;
             box-sizing: border-box;
 
             &-left {
@@ -744,16 +744,16 @@ body {
                 .img-center {
                     position: relative;
                     display: block;
-                    width: 770px;
-                    height: 482px;
+                    max-width: 770px;
+                    max-height: 482px;
                     z-index: 2;
                 }
 
                 .img-left {
                     position: absolute;
                     display: block;
-                    width: 770px;
-                    height: 400px;
+                    max-width: 770px;
+                    max-height: 400px;
                     right: 230px;
                     z-index: 1;
                 }
@@ -765,8 +765,8 @@ body {
                 .img-right {
                     position: absolute;
                     display: block;
-                    width: 770px;
-                    height: 400px;
+                    max-width: 770px;
+                    max-height: 400px;
                     right: -230px;
                     z-index: 1;
                 }
@@ -850,7 +850,7 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 80px 375px;
+            padding: 80px 20%;
             flex-wrap: wrap;
             min-height: 1200px;
             box-sizing: border-box;
@@ -902,14 +902,14 @@ body {
             .projects-cards {
                 display: flex;
                 flex-wrap: wrap;
-                width: 1170px;
+                max-width: 1170px;
                 justify-content: space-between;
                 min-height: 725px;
                 align-content: space-between;
                 margin: 0 0 40px 0;
 
                 article {
-                    width: 370px;
+                    max-width: 370px;
                     min-height: 340px;
                     box-sizing: border-box;
                     position: relative;
@@ -917,8 +917,9 @@ body {
                     .project-img {
                         display: block;
                         margin: 0;
-                        width: 370px;
+                        max-width: 370px;
                         height: 240px;
+                        object-fit: cover;
                     }
 
                     .project-txt {
@@ -1064,15 +1065,15 @@ body {
             .video-text {
                 position: absolute;
                 display: block;
-                width: 552px;
+                max-width: 552px;
                 top: 210px;
-                left: 685px;
+                left: 35%;
                 text-align: center;
                 z-index: 2;
 
                 img {
-                    width: 101px;
-                    height: 101px;
+                    max-width: 101px;
+                    max-height: 101px;
                     margin: 0 auto 40px;
 
                     &:hover,
@@ -1128,7 +1129,7 @@ body {
 
             &-text {
                 max-width: 660px;
-                padding: 116px 0 0 0;
+                padding: 76px 0 40px 0;
 
                 h2 {
                     margin: 0 0 30px 0;
@@ -1494,8 +1495,8 @@ body {
             box-sizing: border-box;
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-between;
             margin: 0 auto;
-            width: max-content;
             max-width: 1180px;
 
             p {
@@ -1511,7 +1512,6 @@ body {
             .footer-wrp {
                 .footer-top-block {
                     max-width: 272px;
-                    margin-right: 30px;
     
                     .footer-heading {
                         font-family: 'raleway';
@@ -1608,8 +1608,8 @@ body {
                         max-width: 272px;
     
                         .widget-img {
-                            width: 130px;
-                            height: 98px;
+                            max-width: 130px;
+                            max-height: 98px;
                             margin-bottom: 10px;
     
                             &:hover,
@@ -1638,7 +1638,6 @@ body {
 
             .footer-wrp {
                 justify-content: space-between;
-                width: 1180px;
                 padding: 45px 0 52px;
 
                 .footer-name {
