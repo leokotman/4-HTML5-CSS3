@@ -1,0 +1,12 @@
+// медиа mobile portrait
+@media (max-width: 576px) {
+    body {
+        .header {
+            #carousel,
+            .carousel-pages {
+                display: none;
+                color: black;
+            }
+        }
+    }
+}

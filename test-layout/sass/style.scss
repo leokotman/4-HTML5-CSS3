@@ -302,6 +302,8 @@
     font-style: normal;
 }
 
+@import "media.scss";
+
 
 body {
     max-width: 1920px;
@@ -784,7 +786,7 @@ body {
             justify-content: space-between;
             align-items: center;
             min-height: 150px;
-            padding: 44px 375px 44px;
+            padding: 2.29% 19.53% 2.29%;
             box-sizing: border-box;
             background-color: #f4f5f8;background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
 
