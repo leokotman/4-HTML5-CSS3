@@ -177,11 +177,6 @@
   src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("ttf");
   font-weight: 400;
   font-style: normal; }
-@media (max-width: 576px) {
-  body .header #carousel,
-  body .header .carousel-pages {
-    display: none;
-    color: black; } }
 body {
   max-width: 1920px;
   margin: 0 auto;
@@ -250,10 +245,13 @@ body {
       height: 56px;
       margin: 0 auto;
       box-sizing: border-box; }
+      body .header-top #menu {
+        display: none; }
       body .header-top-menu {
         display: flex;
         justify-content: space-between;
-        width: 637px; }
+        width: 637px;
+        list-style-type: none; }
         body .header-top-menu .menu-link {
           font-family: 'montserrat', sans-serif;
           font-size: 14px;
@@ -1174,5 +1172,50 @@ body {
         align-items: center;
         max-width: 50%;
         min-width: 320px; }
+
+@media all and (max-width: 576px) {
+  body .header {
+    min-height: 100px; }
+    body .header .header-top {
+      height: auto;
+      align-items: flex-start; }
+      body .header .header-top nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 3.4%; }
+        body .header .header-top nav label {
+          display: block;
+          width: 20px;
+          height: 20px; }
+          body .header .header-top nav label svg {
+            fill: #fff; }
+          body .header .header-top nav label:hover svg, body .header .header-top nav label:focus svg {
+            fill: #c7b299; }
+          body .header .header-top nav label:active svg {
+            fill: #fff; }
+        body .header .header-top nav .header-top-menu {
+          visibility: hidden;
+          margin: 0 auto;
+          height: 0;
+          width: 200px;
+          flex-direction: column;
+          border: 1px solid black;
+          padding: 0;
+          box-sizing: border-box; }
+          body .header .header-top nav .header-top-menu li {
+            min-height: 40px;
+            text-align: center;
+            margin-top: 2px; }
+            body .header .header-top nav .header-top-menu li .menu-link {
+              width: 100%; }
+        body .header .header-top nav input[type="checkbox"]:checked ~ .header-top-menu {
+          visibility: visible;
+          height: auto; }
+      body .header .header-top-action {
+        margin-top: 3%; }
+    body .header .carousel,
+    body .header .carousel-pages {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */

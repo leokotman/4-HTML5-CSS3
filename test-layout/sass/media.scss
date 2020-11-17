@@ -1,12 +1,88 @@
+// медиа для планшетов, компьютеров с низким разрешением
+@media all and (max-width: 1080px) {
+    body {
+        // .header {
+            
+        // }
+    }
+}
+
 // медиа mobile portrait
-@media (max-width: 576px) {
+@media all and (max-width: 576px) {
     body {
         .header {
-            #carousel,
+            min-height: 100px;
+
+            .header-top {
+                height: auto;
+                align-items: flex-start;
+
+                nav {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    margin-top: 3.4%;
+
+                    label {
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        
+                        svg {
+                            fill: #fff;
+                        }
+                        &:hover,
+                        &:focus {
+                            svg {
+                                fill: #c7b299;
+                         }
+                        }
+                        &:active {
+                            svg {
+                                fill: #fff;
+                            }
+                        }
+                    }
+                    
+
+                    .header-top-menu {
+                        visibility: hidden;
+                        margin: 0 auto;
+                        height: 0;
+                        width: 200px;
+                        flex-direction: column;
+                        border: 1px solid black;
+                        padding: 0;
+                        box-sizing: border-box;
+
+                        li {
+                            min-height: 40px;
+                            text-align: center;
+                            margin-top: 2px;
+
+                            .menu-link {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    input[type="checkbox"]:checked ~ .header-top-menu {
+                        visibility: visible;
+                        height: auto;
+                    }
+                }
+
+                &-action {
+                    margin-top: 3%;
+                }
+            }
+
+            .carousel,
             .carousel-pages {
                 display: none;
-                color: black;
+                
             }
+
         }
     }
 }

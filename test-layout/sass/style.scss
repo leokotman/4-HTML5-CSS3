@@ -302,9 +302,6 @@
     font-style: normal;
 }
 
-@import "media.scss";
-
-
 body {
     max-width: 1920px;
     margin: 0 auto;
@@ -397,10 +394,15 @@ body {
             margin: 0 auto;
             box-sizing: border-box;
 
+            #menu {
+                display: none;
+              }
+            
             &-menu {
                 display: flex;
                 justify-content: space-between;
                 width: 637px;
+                list-style-type: none;
 
                 .menu-link {
                     font-family: 'montserrat', sans-serif;
@@ -1682,3 +1684,5 @@ body {
         }
     }
 }
+
+@import "media.scss";
