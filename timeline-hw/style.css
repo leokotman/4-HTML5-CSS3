@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.timeline {
+    height: 900px;
+    width: 670px;
+    margin: 0 auto;
+    padding: 48px 0 36px;
+    position: relative;
+    background-image: url(img/layers.png);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    bottom: 0px;
+    display: block;
+    width: 3px;
+    height: 900px;
+    background-color: #5e607a;
+}
+
+.milestone-left {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+
+.milestone-left .event {
+    margin-right: 40px;
+    position: relative;
+}
+
+.milestone-left .date {
+    left: 310px;
+}
+
+.milestone-right {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin-left: 383px;
+    position: relative;
+}
+
+.milestone-right .date {
+    right: 360px;
+}
+
+.milestone-right .event {
+    position: relative;
+}
+
+.milestone-right .event::after {
+    content: "";
+    display: block;
+    border: 5px solid transparent;
+    border-right: 10px solid #ebebeb;
+    top: 40%;
+    left: -14px;
+    height: 0;
+    position: absolute;
+}
+
+
+
+.milestone-left .event::after {
+    content: "";
+    display: block;
+    border: 5px solid transparent;
+    border-left: 10px solid #ebebeb;
+    top: 40%;
+    right: -14px;
+    height: 0;
+    position: absolute;
+}
+
+.event {
+    max-width: 200px;
+    max-height: 65px;
+    padding: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    box-shadow: 0px -1px 0px 0px rgba(22, 22, 48, 0.5);
+    text-transform: uppercase;
+}
+
+
+.pink-box {
+    background-color: #a8608c;
+}
+
+.blue-box {
+    background-color: #739ac2;
+}
+
+.purple-box {
+    background-color: #967fb5;
+}
+
+.green-box {
+    background-color: #7e9874;
+    text-transform: none;
+}
+
+.red-box {
+    background-color: #cd3737;
+}
+
+.mint-box {
+    background-color: #3d999d;
+}
+
+.grey-box {
+    background-color: #6b7392;
+}
+
+.milestone-left .pink-box::after {
+    border-left: 10px solid #a8608c;
+    ;
+}
+
+.milestone-left .purple-box::after {
+    border-left: 10px solid #967fb5;
+    ;
+}
+
+.milestone-left .red-box::after {
+    border-left: 10px solid #cd3737;
+    ;
+}
+
+.milestone-right .blue-box::after {
+    border-right: 10px solid #739ac2;
+    ;
+}
+
+.milestone-right .green-box::after {
+    border-right: 10px solid #7e9874;
+    ;
+}
+
+.milestone-right .mint-box::after {
+    border-right: 10px solid #3d999d;
+    ;
+}
+
+.milestone-right .grey-box::after {
+    border-right: 10px solid #6b7392;
+    ;
+}
+
+.date {
+    position: absolute;
+    text-align: center;
+    padding-top: 16px;
+    width: 49px;
+    height: 49px;
+    background-color: #393b5b;
+    background-image: linear-gradient(0.0deg, #565b78 0%, #737c9c 100%);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.no-date {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #393b5b;
+    background-image: linear-gradient(0.0deg, #565b78 0%, #737c9c 100%);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.milestone-right .no-date {
+    right: 373px;
+    top: 23px;
+}
+
+.milestone-left .no-date {
+    left: 328px;
+    bottom: 370px;
+}
