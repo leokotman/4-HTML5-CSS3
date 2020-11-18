@@ -48,7 +48,7 @@
             visibility: hidden;
             margin: 0 auto;
             height: 0;
-            width: 200px;
+            width: 150px;
             flex-direction: column;
             border: 1px solid rgba(255, 255, 255, 0.2);
             border-radius: 10px;
@@ -74,6 +74,11 @@
 
         &-action {
           margin-top: 3%;
+          width: auto;
+
+          .cart {
+            padding: 0;
+          }
         }
       }
 
@@ -82,6 +87,7 @@
         display: none;
       }
     }
+
     main {
       .features {
         &-block {
@@ -177,6 +183,33 @@
             padding-left: 50%;
           }
         }
+      }
+
+      .achievements {
+        padding: 3.6% 1% 4.8% 1%;
+
+        &-block {
+          margin: 0 40px 40px 0;
+          &:last-child {
+            margin: 0 0 40px 0;
+          }
+        }
+      }
+
+      .posts {
+
+        .posts-block {
+          .article-post {
+            margin: 0 0 30px 0;
+          }
+        }
+        .posts-slider {
+          display: none; 
+        }
+      }
+
+      .partners {
+        
       }
     }
   }
