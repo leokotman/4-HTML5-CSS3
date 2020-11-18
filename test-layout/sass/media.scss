@@ -197,19 +197,43 @@
       }
 
       .posts {
-
         .posts-block {
           .article-post {
             margin: 0 0 30px 0;
           }
         }
         .posts-slider {
-          display: none; 
+          display: none;
         }
       }
 
       .partners {
-        
+      }
+    }
+
+    footer {
+      .footer-top {
+        padding: 0;
+
+        .footer-wrp {
+          padding: 10px;
+          justify-content: center;
+        }
+      }
+
+      .footer-bottom {
+        .footer-wrp {
+          padding: 4% 0 4%;
+          flex-direction: column;
+          align-items: center;
+          min-height: 100px;
+
+          .footer-bottom_copy-links,
+          .footer-bottom_authors {
+            min-width: 320px;
+            max-width: 100%;
+          }
+        }
       }
     }
   }
