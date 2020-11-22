@@ -95,6 +95,10 @@
 
       .projects {
         padding: 2%;
+
+        .projects-menu {
+          min-width: 565px;
+        }
         
         .projects-cards {
           justify-content: space-around;
