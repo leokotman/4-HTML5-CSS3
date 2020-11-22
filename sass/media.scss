@@ -158,6 +158,18 @@
       }
       .footer-bottom {
         padding: 3% 1% 3%;
+
+        .footer-wrp {
+          flex-direction: column;
+          align-items: center;
+          min-height: 100px;
+
+          .footer-bottom_copy-links,
+          .footer-bottom_authors {
+            min-width: 320px;
+            max-width: 100%;
+          }
+        }
       }
     }
   }
@@ -342,18 +354,6 @@
 
       .footer-bottom {
         padding: 4% 0 4%;
-        
-        .footer-wrp {
-          flex-direction: column;
-          align-items: center;
-          min-height: 100px;
-
-          .footer-bottom_copy-links,
-          .footer-bottom_authors {
-            min-width: 320px;
-            max-width: 100%;
-          }
-        }
       }
     }
   }
