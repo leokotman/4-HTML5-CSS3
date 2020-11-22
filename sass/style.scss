@@ -848,7 +848,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 80px 20%;
+      padding: 4.2% 20%;
       flex-wrap: wrap;
       min-height: 1200px;
       box-sizing: border-box;
@@ -1619,6 +1619,7 @@ body {
       background-color: #111111;
       display: flex;
       justify-content: space-between;
+      padding: 2.3% 0 2.7%;
       font-family: "montserrat";
       font-size: 13px;
       line-height: 20px;
@@ -1627,7 +1628,7 @@ body {
 
       .footer-wrp {
         justify-content: space-between;
-        padding: 2.3% 0 2.7%;
+        width: 1180px;
 
         .footer-name {
           color: #959595;
