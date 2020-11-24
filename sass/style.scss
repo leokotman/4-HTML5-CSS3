@@ -1271,79 +1271,78 @@ body {
             }
           }
 
-          .article-images {
+          .article-images:hover,
+          .article-images:focus {
+              filter: brightness(1);
+          }
+          
+
+          .post-slider {
+            position: relative;
             height: 220px;
             object-fit: cover;
             display: block;
+            width: 100%;
+              // height: 100%;
+            transition-timing-function: ease;
 
-            &:hover,
-            &:focus {
-              filter: brightness(1);
+            .img-slider {
+              position: absolute;
+              width: 370px;
+              height: 220px;
+              object-fit: cover;
+              top: 0;
+              left: 0;
+              opacity: 0;
+              transition: opacity 1s ease;
             }
 
-            .post-slider {
-              position: relative;
-              width: 100%;
-              height: 100%;
-              transition-timing-function: ease;
+            .img-slider:target {
+              opacity: 1;
+            }
 
-              .img-slider {
-                position: absolute;
-                width: 370px;
-                height: 220px;
-                object-fit: cover;
-                top: 0;
-                left: 0;
-                opacity: 0;
-                transition: opacity 1s ease;
-              }
-
-              .img-slider:target {
-                opacity: 1;
-              }
-
-              #img-slider_1:target ~ .slider-button a[href="#img-slider_1"],
-              #img-slider_2:target ~ .slider-button a[href="#img-slider_2"],
-              #img-slider_3:target ~ .slider-button a[href="#img-slider_3"],
-              #img-slider_4:target ~ .slider-button a[href="#img-slider_4"],
-              #img-slider_5:target ~ .slider-button a[href="#img-slider_5"] {
+            #img-slider_1:target ~ .slider-button a[href="#img-slider_1"],
+            #img-slider_2:target ~ .slider-button a[href="#img-slider_2"],
+            #img-slider_3:target ~ .slider-button a[href="#img-slider_3"],
+            #img-slider_4:target ~ .slider-button a[href="#img-slider_4"],
+            #img-slider_5:target ~ .slider-button a[href="#img-slider_5"] {
                 background-color: #362f2d;
                 opacity: 0.7;
                 width: 15px;
                 height: 15px;
                 border: 2px solid #d3c1ad;
-              }
+            }
 
-              .img-slider:first-child {
+            .img-slider:first-child {
                 opacity: 1;
+            }
+
+            .slider-button {
+              display: flex;
+              justify-content: space-between;
+              width: 98px;
+              height: 15px;
+              margin: 0;
+              position: absolute;
+              top: 185px;
+              left: 35%;
+
+              &-link {
+                display: block;
+                width: 11px;
+                height: 11px;
+                opacity: 0.3;
+                background-color: #fff;
+                border-radius: 50%;
               }
-
-              .slider-button {
-                display: flex;
-                justify-content: space-between;
-                width: 98px;
+              &-link:hover {
+                width: 15px;
                 height: 15px;
-                margin: 0;
-                position: absolute;
-                top: 185px;
-                left: 35%;
-
-                &-link {
-                  display: block;
-                  width: 11px;
-                  height: 11px;
-                  opacity: 0.3;
-                  background-color: #fff;
-                  border-radius: 50%;
-                }
-                &-link:hover {
-                  width: 15px;
-                  height: 15px;
-                  border: 2px solid #d3c1ad;
-                  background: none;
-                }
+                border: 2px solid #d3c1ad;
+                background: none;
               }
             }
+            
           }
 
           .post-text {
