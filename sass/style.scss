@@ -1179,6 +1179,7 @@ body {
 
         svg {
           height: 44px;
+          fill: #c7b299;
         }
         h3 {
           margin: 0;
@@ -1375,6 +1376,10 @@ body {
               color: #c7b299;
               text-decoration: none;
 
+              svg {
+                fill: #c7b299;
+              }
+
               &:hover,
               &:focus {
                 color: #fff;
@@ -1444,19 +1449,6 @@ body {
             fill: #362f2d;
           }
         }
-
-        // .slider-button:first-child {
-        //     display: inline-block;
-        //     background: url(../img/arrow-left.svg) no-repeat;
-        //     width: 22px;
-        //     height: 22px;
-        // }
-        // .slider-button:last-child {
-        //     display: inline-block;
-        //     background: url(../img/arrow-right.svg) no-repeat;
-        //     width: 22px;
-        //     height: 22px;
-        // }
       }
     }
 
@@ -1474,6 +1466,13 @@ body {
         max-height: 210px;
         object-fit: contain;
         margin: 0 4.7% 0 0;
+        &:hover,
+        &:focus {
+          filter: drop-shadow(0 0 0.5rem #959595);
+        }
+        &:active {
+          transform: scale(1.05);
+        }
       }
       &-logo:last-child {
         margin: 0;
@@ -1530,6 +1529,10 @@ body {
             font-weight: 400;
             color: #d1d1d1;
             text-decoration: none;
+
+            svg {
+              fill: #c7b299;
+            }
 
             &:hover,
             &:focus {
