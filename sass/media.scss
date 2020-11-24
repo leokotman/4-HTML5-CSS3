@@ -1,6 +1,8 @@
 //медиа для ноутбуков 720p
 @media all and (max-width: 1280px) {
   body {
+    max-width: 100%;
+
     .header {
       &-top {
         nav {
@@ -335,6 +337,12 @@
         }
       }
 
+      .achievements {
+        svg, h3, span, span::after {
+          transform: scale(0.7);
+        }
+      }
+
       .posts {
         .posts-block {
           .article-post {
@@ -343,6 +351,17 @@
         }
         .posts-slider {
           display: none;
+        }
+      }
+
+      .partners {
+        min-height: auto;
+        
+        &-logo {
+          transform: scale(0.7);
+        }
+        &-logo:active {
+          transform: scale(0.9);
         }
       }
     }
